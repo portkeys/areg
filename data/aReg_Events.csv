@@ -1,0 +1,667 @@
+EventID,PromoterID,EventName,EventDate,EventEndDate,EventAddress,EventCity,EventState,Country,EventLat,EventLon,EventType,SecondaryEventType
+31,15,ECV Cyclocross,2000-10-15 0:00:00,2000-10-15 0:00:00,,Gloucester,MA,USA,42.6159285,-70.6619888,Cyclocross,NULL
+183,15,ECV Cyclocross,2001-10-14 0:00:00,2001-10-14 0:00:00,,Gloucester,MA,USA,42.61142,-70.65895,Cyclocross,NULL
+528,15,ECV Cyclocross,2002-10-13 0:00:00,2002-10-13 0:00:00,,"Stage Fort Park, Gloucester",MA,USA,42.6056566,-70.6774439,Cyclocross,NULL
+1136,15,CLIF BAR/ECV Cyclocross Race,2003-11-02 0:00:00,2003-11-02 0:00:00,,Gloucester,MA,USA,42.6186994,-70.6811613,Cyclocross,NULL
+1819,15,"Michelob ULTRA Gran Prix of Gloucester,      Race #1, USGP #3, Verge NECCS #2",2004-10-30 0:00:00,2004-10-30 0:00:00,,Gloucester,MA,USA,42.6186994,-70.6811613,Cyclocross,NULL
+1821,15,"Michelob ULTRA Gran Prix of Gloucester,      Race #2, USGP #4, Verge NECCS #3",2004-10-31 0:00:00,2004-10-31 0:00:00,,Gloucester,MA,USA,42.6186994,-70.6811613,Cyclocross,NULL
+2684,15,"Michelob ULTRA Gran Prix of Gloucester,      Race #2, USGP #4, UCI Cat 1",2005-10-30 0:00:00,2005-10-30 0:00:00,,Gloucester,MA,USA,42.6186994,-70.6811613,Cyclocross,NULL
+2687,15,"Michelob ULTRA Gran Prix of Gloucester,      Race #1, USGP #3, UCI Cat 2",2005-10-29 0:00:00,2005-10-29 0:00:00,,Gloucester,MA,USA,42.6186994,-70.6811613,Cyclocross,NULL
+3847,15,"Gran Prix of Gloucester Presented by SemEquip, Races 1 & 2, USGP #1 & 2, UCI Cat 1",2006-10-07 0:00:00,2006-10-08 0:00:00,,Gloucester,MA,USA,42.6186994,-70.6811613,Cyclocross,NULL
+4269,15,Essex County Velo (ECV) 2007 Clothing Order,2007-02-07 0:00:00,2007-02-28 0:00:00,,Manchester,MA,USA,42.577834,-70.7675967,Special Event,NULL
+4322,15,Essex County Velo (ECV) Annual Dues,2007-02-19 0:00:00,2007-12-31 0:00:00,,Manchester-by-the-Sea,MA,USA,42.577834,-70.7675967,Club Membership,NULL
+4916,15,Witches Cup Criterium,2007-08-15 0:00:00,2007-08-15 0:00:00,,Salem,MA,USA,42.5235097,-70.8952337,Road Race,NULL
+5193,15,"Gran Prix of Gloucester Presented by SemEquip, Verge NECCS #1 & 2, UCI Cat 2",2007-10-13 0:00:00,2007-10-14 0:00:00,,Gloucester,MA,USA,42.6186994,-70.6811613,Cyclocross,NULL
+5587,15,Essex County Velo (ECV) 2008 Clothing Order,2008-01-17 0:00:00,2008-01-31 0:00:00,,Beverly,MA,USA,42.5720581,-70.8476708,Special Event,NULL
+5588,15,Essex County Velo (ECV) Annual Dues,2008-01-01 0:00:00,2008-12-31 0:00:00,,Beverly,MA,USA,42.5720581,-70.8476708,Club Membership,NULL
+6882,15,Witches Cup Criterium,2008-08-13 0:00:00,2008-08-13 0:00:00,,Salem,MA,USA,42.5235097,-70.8952337,Road Race,NULL
+6915,15,"Erdinger Gran Prix of Gloucester, North American Cyclocross Trophy, Verge NECCS, UCI Cat 2",2008-10-11 0:00:00,2008-10-12 0:00:00,,Gloucester,MA,USA,42.6186994,-70.6811613,Cyclocross,NULL
+6999,15,Essex County Velo (ECV) 2008 Fall Clothing Order,2008-08-18 0:00:00,2008-08-18 0:00:00,,Beverly,MA,USA,42.5720581,-70.8476708,Special Event,NULL
+7669,15,Essex County Velo (ECV) Annual Dues,2009-01-26 0:00:00,2009-12-31 0:00:00,,Beverly,MA,USA,42.5720581,-70.8476708,Club Membership,NULL
+7848,15,Essex County Velo (ECV) 2009 Clothing Order,2009-02-20 0:00:00,2009-02-20 0:00:00,,Beverly,MA,USA,42.3078158,-71.1639892,Club Membership,NULL
+9030,15,Gran Prix of Beverly Presented by Beverly Hospital,2009-08-13 0:00:00,2009-08-13 0:00:00,,Beverly,MA,USA,42.5720581,-70.8476708,Road Race,NULL
+9229,15,"Great Brewers Gran Prix of Gloucester, NACT, Verge NECCS, UCI Cat 2",2009-10-03 0:00:00,2009-10-04 0:00:00,,Gloucester,MA,USA,42.6186994,-70.6811613,Cyclocross,NULL
+9876,15,ECV (Essex County Velo) 2010 Annual Membership,2010-01-09 0:00:00,2010-12-31 0:00:00,,Beverly,MA,USA,42.5720581,-70.8476708,Club Membership,NULL
+9994,15,ECV (Essex County Velo) 2010 Clothing Order,2010-01-20 0:00:00,2010-02-09 0:00:00,,Beverly,MA,USA,42.5720581,-70.8476708,Club Membership,NULL
+11238,15,ECV (Essex County Velo) 2010 Fall Clothing Order,2010-07-06 0:00:00,2010-07-06 0:00:00,,Beverly,MA,USA,42.5720581,-70.8476708,Club Membership,NULL
+11240,15,Fidelity Investments Gran Prix of Beverly Presented by Beverly Hospital; MASS State Crit Championships,2010-08-04 0:00:00,2010-08-04 0:00:00,,Beverly,MA,USA,42.5720581,-70.8476708,Road Race,NULL
+11416,15,"Great Brewers Gran Prix of Gloucester, NACT, UCI Cat 2",2010-10-02 0:00:00,2010-10-03 0:00:00,,Gloucester,MA,USA,42.6186994,-70.6811613,Cyclocross,NULL
+12613,15,ECV (Essex County Velo) 2011 Annual Membership,2011-02-05 0:00:00,2011-12-31 0:00:00,,Beverly,MA,USA,42.5720581,-70.8476708,Club Membership,NULL
+12614,15,ECV (Essex County Velo) 2011 Clothing Order,2011-02-05 0:00:00,2011-02-24 0:00:00,,Beverly,MA,USA,42.5720581,-70.8476708,Club Membership,NULL
+12915,15,ECV 2011 Bike Swap,2011-04-17 0:00:00,2011-04-17 0:00:00,,Beverly,MA,USA,42.5720581,-70.8476708,Special Event,NULL
+13362,15,ECV Special Clothing Order: Weisse,2011-04-29 0:00:00,2011-04-29 0:00:00,,Beverly,MA,USA,42.5720581,-70.8476708,Club Membership,NULL
+13471,15,ECV Tour d'Essex County,2011-05-28 0:00:00,2011-05-28 0:00:00,,Beverly,MA,USA,42.5720581,-70.8476708,Special Event,NULL
+13845,15,ECV (Essex County Velo) Mid-Season 2011 Clothing Order,2011-07-02 0:00:00,2011-07-09 0:00:00,,Beverly,MA,USA,42.5720581,-70.8476708,Club Membership,NULL
+13872,15,Fidelity Investments Gran Prix of Beverly | MASS State Crit Championships,2011-08-03 0:00:00,2011-08-03 0:00:00,,Beverly,MA,USA,42.5720581,-70.8476708,Road Race,NULL
+14027,15,"Great Brewers Gran Prix of Gloucester, NEPCX, UCI C1/C2",2011-10-01 0:00:00,2011-10-02 0:00:00,,Gloucester,MA,USA,42.6186994,-70.6811613,Cyclocross,NULL
+14319,15,ECV Grassroots Cross Team Clothing Order,2011-09-21 0:00:00,2011-09-21 0:00:00,,Beverly,MA,USA,42.5720581,-70.8476708,Club Membership,NULL
+14345,15,ECV (Essex County Velo) 2011 Fall Clothing Order,2011-09-29 0:00:00,2011-09-29 0:00:00,,Beverly,MA,USA,42.5720581,-70.8476708,Club Membership,NULL
+14951,15,ECV (Essex County Velo) 2012 Annual Membership,2012-12-01 0:00:00,2012-12-01 0:00:00,,Beverly,MA,USA,42.5720581,-70.8476708,Club Membership,NULL
+15482,15,ECV (Essex County Velo) 2012 Clothing Order,2012-03-08 0:00:00,2012-03-08 0:00:00,,Beverly,MA,USA,42.5720581,-70.8476708,Club Membership,NULL
+16448,15,ECV (Essex County Velo) Tour d'Essex County T-shirt offer,2012-05-16 0:00:00,2012-05-16 0:00:00,,Beverly,MA,USA,42.5720581,-70.8476708,Club Membership,NULL
+16504,15,Fidelity Investments Gran Prix of Beverly | MASS State Crit Championships,2012-07-11 0:00:00,2012-07-11 0:00:00,,Beverly,MA,USA,42.5720581,-70.8476708,Road Race,NULL
+16880,15,ECV Grassroots Cyclocross Program,2012-09-29 0:00:00,2012-09-29 0:00:00,,Beverly,MA,USA,-70.880049,42.5584283,Club Membership,NULL
+924,1126,the HARD ROAD,2003-06-16 0:00:00,2003-06-16 0:00:00,,AMC Theatre Framingham,MA,USA,42.3240042,-71.4536835,Special Event,Road Race
+1325,1126,The 10th Annual MRC Sterling Classic Road Race,2004-05-08 0:00:00,2004-05-08 0:00:00,,Sterling,MA,USA,42.4374156,-71.7606293,Road Race,NULL
+2058,1126,The 11th Annual MRC Sterling Classic Road Race,2005-07-30 0:00:00,2005-07-30 0:00:00,,Sterling,MA,USA,42.4374156,-71.7606293,Road Race,NULL
+2942,1126,2006 Minuteman Road Club Membership,2006-10-16 0:00:00,2006-10-16 0:00:00,,Westborough,MA,USA,42.2695387,-71.6161777,Club Membership,NULL
+3122,1126,The 12th Annual MRC Sterling Classic Road Race,2006-05-13 0:00:00,2006-05-13 0:00:00,,Sterling,MA,USA,42.4374156,-71.7606293,Road Race,NULL
+3961,1126,2007 Minuteman Road Club Membership,2007-12-31 0:00:00,2007-12-31 0:00:00,,Metrowest,MA,USA,42.3016612,-71.4338916,Club Membership,NULL
+4207,1126,2007 Minuteman Road Club Uniform Order,2007-07-01 0:00:00,2007-07-01 0:00:00,,Metrowest,MA,USA,42.3016612,-71.4338916,Club Membership,NULL
+4612,1126,The 13th Annual MRC Sterling Classic Road Race,2007-05-12 0:00:00,2007-05-12 0:00:00,,Sterling,MA,USA,42.4374156,-71.7606293,Road Race,NULL
+6160,1126,2008 Minuteman Road Club Uniform Order,2008-05-01 0:00:00,2008-06-01 0:00:00,,Metrowest,MA,USA,42.3016612,-71.4338916,Club Membership,NULL
+6297,1126,The 14th Annual MRC Sterling Classic Road Race,2008-05-10 0:00:00,2008-05-10 0:00:00,,Sterling,MA,USA,42.4374156,-71.7606293,Road Race,NULL
+6686,1126,The Twilight Criterium to Benefit Cystic Fibrosis Research,2008-06-30 0:00:00,2008-06-30 0:00:00,,Thompson,CT,USA,41.9583716,-71.845274,Road Race,NULL
+7054,1126,MRC Cyclocross Training Series,2008-09-03 0:00:00,2008-10-01 0:00:00,,Wrentham,MA,USA,42.0255956,-71.4894166,Cyclocross,NULL
+7372,1126,2009 Minuteman Road Club Membership,2008-12-01 0:00:00,2009-11-30 0:00:00,,Metrowest,MA,USA,42.3016612,-71.4338916,Club Membership,NULL
+7443,1126,2009  Minuteman Road Club Spring Uniform Order,2008-12-22 0:00:00,2009-02-01 0:00:00,,Metrowest,MA,USA,42.3016612,-71.4338916,Club Membership,NULL
+7653,1126,2009  Minuteman Road Club -- Rudy Project PRO Order,2009-03-01 0:00:00,2009-04-25 0:00:00,,Metrowest,MA,USA,42.3016612,-71.4338916,Special Event,NULL
+8442,1126,The 15th Annual MRC Sterling Classic Road Race,2009-05-09 0:00:00,2009-05-09 0:00:00,,Sterling,MA,USA,42.4374156,-71.7606293,Road Race,NULL
+8758,1126,The Twilight Criterium to Benefit Cystic Fibrosis Research,2009-06-27 0:00:00,2009-06-27 0:00:00,,Thompson,CT,USA,41.9583716,-71.845274,Road Race,NULL
+9128,1126,MRC Cyclocross Training Series,2009-09-02 0:00:00,2009-09-30 0:00:00,,Wrentham,MA,USA,42.0667652,-71.3281114,Cyclocross,NULL
+9754,1126,2010 Minuteman Road Club Membership,2009-12-15 0:00:00,2010-11-01 0:00:00,,Metrowest,MA,USA,42.3016612,-71.4338916,Club Membership,NULL
+10373,1126,2010  Minuteman Road Club -- Rudy Project PRO Order,2010-03-01 0:00:00,2010-03-30 0:00:00,,Metrowest,MA,USA,42.281425,-71.653162,Special Event,NULL
+10596,1126,The 16th Annual Sterling Classic Road Race,2010-05-08 0:00:00,2010-05-08 0:00:00,,Sterling,MA,USA,42.4374156,-71.7606293,Road Race,NEBRA
+11934,1126,2011 Minuteman Road Club Membership,2010-11-02 0:00:00,2011-10-31 0:00:00,,Boston and Metrowest,MA,USA,42.2978547,-71.4159618,Club Membership,NULL
+12539,1126,2011  Minuteman Road Club -- Rudy Project PRO Order,2011-02-07 0:00:00,2011-03-30 0:00:00,,Metrowest,MA,USA,42.281425,-71.653162,Special Event,NULL
+13057,1126,The 17th Annual Sterling Classic Road Race,2011-05-07 0:00:00,2011-05-07 0:00:00,,Sterling,MA,USA,42.4374156,-71.7606293,Road Race,NEBRA
+14556,1126,2012 Minuteman Road Club Membership,2011-11-05 0:00:00,2012-10-31 0:00:00,,Boston and Metrowest,MA,USA,-72,42,Club Membership,NULL
+15613,1126,2012  Minuteman Road Club -- Rudy Project PRO Order,2012-02-20 0:00:00,2012-03-23 0:00:00,,Metrowest,MA,USA,42.281425,-71.653162,Special Event,NULL
+15864,1126,The 18th Annual Sterling Classic Road Race,2012-05-12 0:00:00,2012-05-12 0:00:00,co-promoted by Central Mass. Cycling Club (CMCC),Sterling,MA,USA,-71.7606293,42.4374156,Road Race,NEBRA
+16297,1126,2012  Minuteman Road Club Uniform Order,2012-05-01 0:00:00,2012-11-01 0:00:00,,Metrowest,MA,USA,42.3016612,-71.4338916,Club Membership,NULL
+16994,15,"Great Brewers Gran Prix of Gloucester, NEPCX, UCI C1/C2",2012-09-29 0:00:00,2012-09-30 0:00:00,,Gloucester,MA,USA,42.6186994,-70.6811613,Cyclocross,NEBRA
+17034,15,ECV (Essex County Velo) 2012 Fall Clothing Order,2012-08-11 0:00:00,2012-08-11 0:00:00,,Beverly,MA,USA,42.5584283,-70.880049,Club Membership,NULL
+17436,1126,Fall 2012 Minuteman Road Club Uniform Order,2012-09-24 0:00:00,2012-09-24 0:00:00,,Metro West,MA,USA,42.3506416,-71.5557465,Club Membership,NULL
+17697,1126,2013 Minuteman Road Club Membership,2012-11-18 0:00:00,2013-11-01 0:00:00,,Boston and Metrowest,MA,USA,42.267223,-71.875832,Club Membership,NULL
+18092,15,ECV (Essex County Velo) 2013 Annual Membership,2013-12-01 0:00:00,2013-12-01 0:00:00,,Beverly,MA,USA,42.5584283,-70.880049,Club Membership,NULL
+18342,1126,Minuteman Road Club Early Spring 2013 Kit Order,2013-02-06 0:00:00,2013-02-06 0:00:00,,Metro West,MA,USA,42.3506416,-71.5557465,Club Membership,NULL
+18361,1126,2013  Minuteman Road Club -- Rudy Project PRO Order,2013-02-28 0:00:00,2013-03-31 0:00:00,,Metrowest,MA,USA,42.3016612,-71.4338916,Special Event,NULL
+18645,15,ECV (Essex County Velo) 2013 Clothing Order,2013-03-07 0:00:00,2013-03-07 0:00:00,,Beverly,MA,USA,42.5584283,-70.880049,Club Membership,NULL
+18703,1126,The 19th Annual Sterling Classic Road Race,2013-05-11 0:00:00,2013-05-11 0:00:00,,Sterling,MA,USA,42.4374156,-71.7606293,Road Race,NEBRA
+19155,15,ECV Tour d'Essex County,2013-06-01 0:00:00,2013-06-01 0:00:00,,Mancester-by-the-Sea,MA,USA,42.577834,-70.7675967,Recreational,NULL
+19374,15,Fidelity Investments Gran Prix of Beverly | MASS State Crit Championships Hosted by ECV,2013-07-24 0:00:00,2013-07-24 0:00:00,,Beverly,MA,USA,42.5720581,-70.8476708,Road Race,NULL
+20293,15,"The 15th Annual Great Brewers Gran Prix of Gloucester, NEPCX, UCI C2",2013-09-28 0:00:00,2013-09-29 0:00:00,,Gloucester,MA,USA,42.6186994,-70.6811613,Cyclocross,New England Cyclocross Series
+21568,15,ECV Cyclocross Season Order,2013-10-02 0:00:00,2013-10-02 0:00:00,,Beverly,MA,USA,42.5720581,-70.8476708,Club Membership,NULL
+22490,15,ECV (Essex County Velo) 2014 Annual Membership,2014-12-01 0:00:00,2014-12-01 0:00:00,,Beverly,MA,USA,42.5584283,-70.880049,Club Membership,NULL
+22493,15,ECV (Essex County Velo) 2014 Clothing Order,2014-02-18 0:00:00,2014-02-18 0:00:00,,Beverly,MA,USA,42.5584283,-70.880049,Club Membership,NULL
+23433,15,ECV Tour d'Essex County,2014-05-24 0:00:00,2014-05-24 0:00:00,"23 Elm Street, Manchester-by-the-Sea, MA 01944",Mancester-by-the-Sea,MA,USA,42.5768045,-70.7730109,Recreational,NULL
+24757,15,Fidelity Investments Gran Prix of Beverly | MASS State Crit Championships Hosted by ECV,2014-07-30 0:00:00,2014-07-30 0:00:00,"23 Essex St, Beverly, MA",Beverly,MA,USA,42.5501402,-70.8760643,Road Race,NULL
+25276,15,"Rapha Super Cross Gloucester, Presented by Great Brewers, UCI C2",2014-09-27 0:00:00,2014-09-28 0:00:00,,Gloucester,MA,USA,42.60564162,-70.6787481,Cyclocross,New England Cyclocross Series
+25576,15,ECV Grassroots Cyclocross Program,2014-08-20 0:00:00,2014-08-20 0:00:00,,Beverly,MA,USA,-70.880049,42.5584283,Club Membership,NULL
+25762,15,ECV (Essex County Velo) 2014 Fall Clothing Order,2014-09-02 0:00:00,2014-09-02 0:00:00,,Beverly,MA,USA,42.5584283,-70.880049,Club Membership,NULL
+28603,15,"CRAFT Sportswear Gran Prix of Gloucester, UCI C2, Verge Series Races 1 & 2",2015-09-26 0:00:00,2015-09-27 0:00:00,,Gloucester,MA,USA,42.60564162,-70.6787481,Cyclocross,New England Cyclocross Series
+30065,15,CRAFT Sportswear Gran Prix of Gloucester Presented by Ipswich Brewing,2016-10-15 0:00:00,2016-10-16 0:00:00,Stage Fort Park,Gloucester,MA,USA,42.6056566,-70.6774439,Cyclocross,New England Cyclocross Series
+35020,15,"CRAFT Sportswear Gran Prix of Gloucester Presented by Ipswich Brewing, Vittoria Northeast 1 & 2",2026-01-17 5:33:00,2026-01-17 5:33:00,Stage Fort Park,Gloucester,MA,USA,43.208,-71.6,Cyclocross,New England Cyclocross Series
+38978,15,20th CRAFT Sportswear Gran Prix of Gloucester Presented by Ipswich Brewing,2018-10-13 0:00:00,2018-10-14 0:00:00,Stage Fort Park,Gloucester,MA,USA,42.6056566,-70.6774439,Cyclocross,New England Cyclocross Series
+42469,15,Gran Prix of Gloucester Presented by Ipswich Brewing,2019-10-05 0:00:00,2019-10-06 0:00:00,Stage Fort Park,Gloucester,MA,USA,42.6056566,-70.6774439,Cyclocross,New England Cyclocross Series
+51083,15,Goldberg Properties GP Beverly Cyclocross p/b Old Planters Brewing Co,2021-09-11 0:00:00,2021-09-11 0:00:00,Lynch Park,Beverly,MA,USA,42.5466926,-70.8606952,Cyclocross,Cyclocross
+56000,15,Soall Viet Kitchen GP Beverly Cyclocross p/b Old Planters Brewing Co,2022-09-10 0:00:00,2022-09-10 0:00:00,Lynch Park,Beverly,MA,USA,42.5466926,-70.8606952,Cyclocross,Cyclocross
+61896,15,Soall Viet Kitchen GP Beverly Cyclocross p/b Old Planters Brewing Co,2023-09-09 0:00:00,2023-09-09 0:00:00,Lynch Park,Beverly,MA,USA,42.5466926,-70.8606952,Cyclocross,Cyclocross
+7360,2547,The Ice Weasels Cometh at White Barn Farm,2008-12-13 0:00:00,2008-12-13 0:00:00,,Wrentham,MA,USA,42.0789478,-71.319029,Cyclocross,NULL
+9593,2547,The Ice Weasels Cometh at White Barn Farm,2009-12-12 0:00:00,2009-12-12 0:00:00,,Wrentham,MA,USA,42.0789478,-71.319029,Cyclocross,NULL
+10808,3634,NCC Montague Training Crit,2010-05-19 0:00:00,2010-05-19 0:00:00,,Montague,MA,USA,42.5462156,-72.5323139,Road Race,NULL
+10913,3634,NCC Montague Training Crit,2010-05-26 0:00:00,2010-05-26 0:00:00,,Montague,MA,USA,42.5462156,-72.5323139,Road Race,NULL
+10914,3634,NCC Montague Training Crit,2010-06-02 0:00:00,2010-06-02 0:00:00,,Montague,MA,USA,42.5462156,-72.5323139,Road Race,NULL
+10915,3634,NCC Montague Training Crit,2010-06-09 0:00:00,2010-06-09 0:00:00,,Montague,MA,USA,42.5462156,-72.5323139,Road Race,NULL
+10916,3634,NCC Montague Training Crit,2010-06-16 0:00:00,2010-06-16 0:00:00,,Montague,MA,USA,42.5462156,-72.5323139,Road Race,NULL
+10917,3634,NCC Montague Training Crit,2010-06-23 0:00:00,2010-06-23 0:00:00,,Montague,MA,USA,42.5462156,-72.5323139,Road Race,NULL
+11234,3634,Jeremy Powers Wheelhouse Sports Grand Fundo 2010,2010-07-17 0:00:00,2010-07-17 0:00:00,,Southampton,MA,USA,42.209859,-72.789744,Recreational,Road Race
+11740,2547,The Night Weasels Cometh,2010-10-06 0:00:00,2010-10-06 0:00:00,,Shrewsbury,MA,USA,42.295833,-71.713333,Cyclocross,NULL
+11988,2547,The Ice Weasels Cometh at White Barn Farm,2010-12-11 0:00:00,2010-12-11 0:00:00,,Wrentham,MA,USA,42.0789478,-71.319029,Cyclocross,NULL
+14124,2547,The Night Weasels Cometh,2011-10-05 0:00:00,2011-10-05 0:00:00,,Shrewsbury,MA,USA,42.295833,-71.713333,Cyclocross,NULL
+14573,2547,The Ice Weasels Cometh at White Barn Farm,2011-12-10 0:00:00,2011-12-10 0:00:00,"458 South St,",Wrentham,MA,USA,42.056063,-71.340947,Cyclocross,NULL
+17222,2547,The Night Weasels Cometh,2012-10-03 0:00:00,2012-10-03 0:00:00,1000 Main Street,Shrewsbury,MA,USA,42.3036564,-71.6813661,Cyclocross,NULL
+17661,2547,The Ice Weasels Cometh at White Barn Farm,2012-12-08 0:00:00,2012-12-08 0:00:00,458 South St,Wrentham,MA,USA,42.056063,-71.340947,Cyclocross,NULL
+18996,1126,Minuteman Road Club Late Spring 2013 Kit Order,2013-04-07 0:00:00,2013-04-07 0:00:00,,Metro West,MA,USA,42.3016612,-71.4338916,Club Membership,NULL
+19208,2547,Gnar Weasels,2013-07-13 0:00:00,2013-07-13 0:00:00,131 Boston-Providence Turnpike,Foxboro,MA,USA,42.0734128,-71.2880573,Mountain Bike,NULL
+20093,2547,The Night Weasels Cometh,2013-10-02 0:00:00,2013-10-02 0:00:00,1000 Main Street,Shrewsbury,MA,USA,42.3036564,-71.6813661,Cyclocross,NULL
+20156,1126,Minuteman Road Club Fall 2013 Kit Order,2013-08-17 0:00:00,2013-08-17 0:00:00,,Metro West,MA,USA,42.3016612,-71.4338916,Club Membership,NULL
+21392,1126,Minuteman Road Club Cyclocross Training Rides,2013-08-28 0:00:00,2013-09-18 0:00:00,,Shrewsbury,MA,USA,42.2959267,-71.7128471,Special Event,Cyclocross
+21428,1126,2013 Minuteman Road Club CX Race,2013-10-13 0:00:00,2013-10-13 0:00:00,318 Seven Bridges Road,Lancaster,MA,USA,42.4556452,-71.6731242,Cyclocross,Zanconato SSCX Series
+21787,1126,Minuteman Road Club Hooded Directors Jacket,2013-10-26 0:00:00,2013-10-26 0:00:00,,Metro West,MA,USA,42.3016612,-71.4338916,Club Membership,NULL
+21851,2547,The Ice Weasels Cometh,2013-12-14 0:00:00,2013-12-14 0:00:00,136 Fenno Dr,Rowley,MA,USA,42.73563413,-70.87376833,Cyclocross,NULL
+22059,1126,End Of Year Celebration,2014-01-25 0:00:00,2014-01-25 0:00:00,159 Ballville Road,Bolton,MA,USA,42.4313813,-71.6471359,Club Membership,NULL
+22116,1126,2014 Minuteman Road Club Membership,2013-12-16 0:00:00,2014-11-30 0:00:00,,Boston and Metrowest,MA,USA,42.41940145,-71.53610229,Club Membership,NULL
+22428,1126,2014  Minuteman Road Club -- Rudy Project PRO Order,2014-01-16 0:00:00,2014-03-31 0:00:00,,Metrowest,MA,USA,42.3016612,-71.4338916,Special Event,NULL
+22663,2547,Gnar Weasels,2014-05-25 0:00:00,2014-05-25 0:00:00,131 Boston-Providence Turnpike,Foxboro,MA,USA,42.0734128,-71.2880573,Mountain Bike,NULL
+22726,1126,Minuteman Road Club Spring 2014 Kit Order,2014-02-19 0:00:00,2014-02-19 0:00:00,,Metro West,MA,USA,42.3016612,-71.4338916,Club Membership,NULL
+23273,1126,Harvard Firefighters Association Ken Harrod Memorial Road Race p/b Minuteman Road Club,2014-05-31 0:00:00,2014-05-31 0:00:00,14 Massachusetts Ave.,Harvard,MA,USA,42.4971306,-71.5825769,Road Race,NEBRA
+23278,1126,Harvard Firefighters Association 5th Annual Ken Harrod Memorial Bike Ride,2014-05-31 0:00:00,2014-05-31 0:00:00,14 Massachusetts Ave.,Harvard,MA,USA,42.4971306,-71.5825769,Recreational,NULL
+25234,2547,The Night Weasels Cometh,2014-10-01 0:00:00,2014-10-01 0:00:00,1000 Main Street,Shrewsbury,MA,USA,42.3036564,-71.6813661,Cyclocross,NULL
+25763,1126,Minuteman Road Club Fall 2014 Kit Order,2014-09-10 0:00:00,2014-09-10 0:00:00,,Metro West,MA,USA,42.3016612,-71.4338916,Club Membership,NULL
+25780,1126,2014 Minuteman Road Club Cyclocross Race p/b Landry's Bicycles,2014-10-12 0:00:00,2014-10-12 0:00:00,318 Seven Bridges Road,Lancaster,MA,USA,42.4556452,-71.6731242,Cyclocross,Zanconato SSCX Series
+26152,2547,The Ice Weasels Cometh,2014-12-13 0:00:00,2014-12-13 0:00:00,4097 Diamond Hill Rd,Cumberland,RI,USA,42.002659,-71.41828,Cyclocross,NULL
+26223,2547,Gnar Weasels - Kenda Cup East #4,2015-07-05 0:00:00,2015-07-05 0:00:00,4097 Diamond Hill Road,Cumberland,RI,USA,42.002659,-71.41828,Mountain Bike,NULL
+26391,2547,Cancelled!  - FATWEASELS,2015-02-22 0:00:00,2015-02-22 0:00:00,,Goshen,MA,USA,42.45671483,-72.80047417,Mountain Bike,Fat Bike
+26545,2547,Ice Weasels Refunds,2015-12-12 0:00:00,2015-12-12 0:00:00,,Leeds,MA,USA,42.3506122,-72.7156274,Club Membership,NULL
+26644,1126,2015 Minuteman Road Club Membership,2014-12-24 0:00:00,2015-12-01 0:00:00,,Boston and Metrowest,MA,USA,42.2959267,-71.7128471,Club Membership,NULL
+27007,1126,2015  Minuteman Road Club -- Rudy Project PRO Order,2015-03-30 0:00:00,2015-03-30 0:00:00,,Metrowest,MA,USA,42.3016612,-71.4338916,Special Event,Club Membership
+27528,2547,The Night Weasels Cometh,2015-09-30 0:00:00,2015-09-30 0:00:00,1000 Main Street,Shrewsbury,MA,USA,42.3036564,-71.6813661,Cyclocross,NULL
+27538,1126,Ken Harrod Memorial Road Race p/b Minuteman Road Club,2015-05-30 0:00:00,2015-05-30 0:00:00,27 Massachusetts Ave.,Harvard,MA,USA,42.4981035,-71.5826638,Road Race,NEBRA
+29217,1126,2015 Minuteman Road Club Cyclocross Race p/b Landry's Bicycles,2015-10-11 0:00:00,2015-10-11 0:00:00,318 7 Bridge Road,Lancaster,MA,USA,42.4645152,-71.6630244,Cyclocross,Zanconato SSCX Series
+29464,2547,The Ice Weasels Cometh,2015-12-12 0:00:00,2015-12-12 0:00:00,1 Hay St,West Warwick,RI,USA,41.715042,-71.5154656,Cyclocross,NULL
+30044,1126,2016 Minuteman Road Club Membership,2016-01-10 0:00:00,2016-12-31 0:00:00,,Boston and Metrowest,MA,USA,42.182528,-72.2152909,Club Membership,NULL
+30190,1126,2016  Minuteman Road Club -- Rudy Project PRO Order,2016-02-29 0:00:00,2016-02-29 0:00:00,,Metrowest,MA,USA,42.2934248,-71.4609825,Special Event,Special Event
+30537,1126,Ken Harrod Memorial Road Race p/b Minuteman Road Club,2016-06-04 0:00:00,2016-06-04 0:00:00,27 Massachusetts Ave.,Harvard,MA,USA,42.4981035,-71.5826638,Road Race,NEBRA
+31276,1126,Wachusett Brewing Co. Gran Fondo,2016-06-18 0:00:00,2016-06-18 0:00:00,175 State Rd,Westminster,MA,USA,42.5586266,-71.8715288,Gran Fondo,Road Race
+31370,2547,Gnar Weasels - Kenda Cup East #5,2016-07-02 0:00:00,2016-07-02 0:00:00,300 Ski Tow Rd,Brownsville,VT,USA,43.46401063,-72.46680602,Mountain Bike,NULL
+32150,2547,VERGE Night Weasels Cometh,2016-10-05 0:00:00,2016-10-05 0:00:00,1000 Main Street,Shrewsbury,MA,USA,42.3036564,-71.6813661,Cyclocross,NULL
+32515,1126,"2016 Minuteman CX -- p/b Minuteman Road Club, Wachusett Brewing, Landry's Bicycles, and Yasso Yogurt",2016-10-09 0:00:00,2016-10-09 0:00:00,318 7 Bridge Road,Lancaster,MA,USA,42.4645152,-71.6630244,Cyclocross,Zanconato SSCX Series
+32820,2547,The Ice Weasels Cometh,2016-12-10 0:00:00,2016-12-10 0:00:00,1 Hay St,West Warwick,RI,USA,41.715042,-71.5154656,Cyclocross,NULL
+33100,1126,2017 Minuteman Road Club Membership,2017-01-01 0:00:00,2017-12-31 0:00:00,,Boston and Metrowest,MA,USA,42.182528,-72.2152909,Club Membership,NULL
+33470,1126,2017  Minuteman Road Club -- Rudy Project PRO Order,2017-01-08 0:00:00,2017-02-28 0:00:00,,Metrowest,MA,USA,42.2934248,-71.4609825,Special Event,Special Event
+34198,1126,Ken Harrod Memorial Road Race p/b Minuteman Road Club,2017-06-03 0:00:00,2017-06-03 0:00:00,27 Massachusetts Ave.,Harvard,MA,USA,42.4981035,-71.5826638,Road Race,NEBRA
+34314,2547,Gnar Weasels - Kenda Cup East #4,2017-07-01 0:00:00,2017-07-01 0:00:00,300 Ski Tow Rd,Brownsville,VT,USA,43.46401063,-72.46680602,Mountain Bike,NULL
+35729,2547,VERGE Night Weasels Cometh,2017-10-04 0:00:00,2017-10-04 0:00:00,1000 Main Street,Shrewsbury,MA,USA,42.3036564,-71.6813661,Cyclocross,NULL
+35818,1126,2017 Landry's Bicycles Cyclocross Practice P/B Minuteman Road Club,2017-08-30 0:00:00,2017-09-21 0:00:00,1000 Main St,Shrewsbury,MA,USA,42.3015113,-71.6828297,Special Event,Cyclocross
+35842,1126,"2017 Minuteman CX -- p/b Minuteman Road Club, Wachusett Brewing, and Landry's Bicycles",2017-10-08 0:00:00,2017-10-08 0:00:00,318 7 Bridge Road,Lancaster,MA,USA,42.4645152,-71.6630244,Cyclocross,Zanconato SSCX Series
+36399,2547,The Ice Weasels Cometh,2017-12-09 0:00:00,2017-12-09 0:00:00,1 Hay St,West Warwick,RI,USA,41.715042,-71.5154656,Cyclocross,NULL
+36780,1126,2018 Minuteman Road Club Membership,2017-12-01 0:00:00,2018-11-30 0:00:00,,Boston and Metrowest,MA,USA,42.182528,-72.2152909,Club Membership,NULL
+37361,1126,Tim Johnson's Wachusett Fondo,2018-07-28 0:00:00,2018-07-28 0:00:00,175 State Rd,Westminster,MA,USA,42.5586266,-71.8715288,Gran Fondo,Gran Fondo
+37537,1126,2018  Minuteman Road Club -- Rudy Project PRO Order,2018-01-30 0:00:00,2018-03-31 0:00:00,,Metrowest,MA,USA,42.2934248,-71.4609825,Special Event,Special Event
+37782,2547,Gnar Weasels - Bubba Trophy Series #4,2018-07-07 0:00:00,2018-07-07 0:00:00,300 Ski Tow Rd,Brownsville,VT,USA,43.46401063,-72.46680602,Mountain Bike,NULL
+37842,1126,Ken Harrod Memorial Road Race p/b Minuteman Road Club,2018-05-12 0:00:00,2018-05-12 0:00:00,27 Massachusetts Ave.,Harvard,MA,USA,42.4981035,-71.5826638,Road Race,NEBRA
+39090,2547,Colin's AUD Event,2025-08-28 0:00:00,2025-08-30 0:00:00,,Adelaide,ACT,AUS,42.353037,-72.6998119,Road Race,NULL
+39595,2547,Night Weasels Cometh,2018-10-03 0:00:00,2018-10-03 0:00:00,1000 Main Street,Shrewsbury,MA,USA,42.3014714,-71.6828624,Cyclocross,NEBRA
+39787,1126,2018 Ski Ward Cyclocross Practice P/B Minuteman Road Club,2018-08-29 0:00:00,2018-09-26 0:00:00,1000 Main St,Shrewsbury,MA,USA,42.3015113,-71.6828297,Special Event,Cyclocross
+39923,1126,"2018 Minuteman CX -- p/b Minuteman Road Club, Wachusett Brewing, and Landry's Bicycles",2018-10-07 0:00:00,2018-10-07 0:00:00,318 7 Bridge Road,Lancaster,MA,USA,42.4645152,-71.6630244,Cyclocross,Zanconato SSCX Series
+40403,2547,The Ice Weasels Cometh,2018-12-08 0:00:00,2018-12-08 0:00:00,28 Hospital Rd,Medfield,MA,USA,42.2082405,-71.3343658,Cyclocross,NULL
+40637,1126,2019 Minuteman Road Club Membership,2018-12-01 0:00:00,2019-11-01 0:00:00,,Boston and Metrowest,MA,USA,42.182528,-72.2152909,Club Membership,NULL
+40927,1126,Ken Harrod Memorial Road Race p/b Minuteman Road Club,2019-05-18 0:00:00,2019-05-18 0:00:00,27 Massachusetts Ave.,Harvard,MA,USA,42.4981035,-71.5826638,Road Race,NEBRA
+41471,1126,Tim Johnson's Wachusett Fondo,2019-07-20 0:00:00,2019-07-20 0:00:00,175 State Rd,Westminster,MA,USA,42.5586266,-71.8715288,Gran Fondo,Gran Fondo
+41685,1126,2019  Minuteman Road Club -- Rudy Project PRO Order,2019-03-01 0:00:00,2019-03-01 0:00:00,,Metrowest,MA,USA,42.2934248,-71.4609825,Special Event,Special Event
+42272,2547,Gnar Weasels - Bubba Trophy Series #4,2019-07-06 0:00:00,2019-07-06 0:00:00,300 Ski Tow Rd,Brownsville,VT,USA,43.46401063,-72.46680602,Mountain Bike,NULL
+43855,1126,"2019 Minuteman CX -- p/b Minuteman Road Club, Wachusett Brewing, and Landry's Bicycles",2019-10-13 0:00:00,2019-10-13 0:00:00,318 7 Bridge Road,Lancaster,MA,USA,42.4645152,-71.6630244,Cyclocross,Zanconato SSCX Series
+43923,2547,Night Weasels Cometh,2019-10-05 0:00:00,2019-10-05 0:00:00,1000 Main Street,Shrewsbury,MA,USA,42.3014714,-71.6828624,Cyclocross,NEBRA
+44110,1126,2019 Ski Ward Cyclocross Practice P/B Minuteman Road Club,2019-08-28 0:00:00,2019-10-03 0:00:00,1000 Main St,Shrewsbury,MA,USA,42.3015113,-71.6828297,Cyclocross,Cyclocross
+44740,2547,The Ice Weasels Cometh,2019-12-15 0:00:00,2019-12-15 0:00:00,45 Hospital Rd,Medfield,MA,USA,42.20881333,-71.33591754,Cyclocross,NULL
+45415,1126,2020 Minuteman Road Club Membership,2019-12-17 0:00:00,2020-12-31 0:00:00,,Boston and Metrowest,MA,USA,42.182528,-72.2152909,Club Membership,NULL
+45667,1126,CANCELED - Ken Harrod Memorial Road Race p/b Minuteman Road Club,2020-08-08 0:00:00,2020-08-08 0:00:00,27 Massachusetts Ave.,Harvard,MA,USA,42.4981035,-71.5826638,Road Race,NEBRA
+49099,1126,2021 Minuteman Road Club Membership,2021-01-25 0:00:00,2021-12-31 0:00:00,,Boston and Metrowest,MA,USA,42.182528,-72.2152909,Club Membership,NULL
+50132,2547,Dev Load Test Version: Brewing Co. BARRY-ROUBAIX 2021,2025-10-10 0:00:00,2025-10-10 0:00:00,200 S. Boltwood St.,"Barry County, Hastings",NC,USA,42.6468759,-85.2845704,Gravel,Road Race
+51455,1126,2021 Minuteman CX -- p/b Minuteman Road Club,2021-10-10 0:00:00,2021-10-10 0:00:00,318 7 Bridge Rd,Lancaster,MA,USA,42.4645152,-71.6630244,Cyclocross,NULL
+51873,2547,Night Weasels Cometh,2021-10-02 0:00:00,2021-10-02 0:00:00,318 7 Bridge Rd,Lancaster,MA,USA,42.4645152,-71.6630244,Cyclocross,NEBRA
+52850,2547,The Ice Weasels Cometh,2021-12-04 0:00:00,2021-12-04 0:00:00,Legion Rd,Southwick,MA,USA,42.0578058,-72.7533543,Cyclocross,NULL
+53720,1126,2022 Minuteman Road Club Membership,2022-01-10 0:00:00,2022-12-31 0:00:00,,Boston and Metrowest,MA,USA,42.182528,-72.2152909,Club Membership,NULL
+54188,1126,Ken Harrod Memorial Road Race p/b Minuteman Road Club,2022-05-21 0:00:00,2022-05-21 0:00:00,27 Massachusetts Ave.,Harvard,MA,USA,42.4981035,-71.5826638,Road Race,NEBRA
+54861,2547,Gnar Weasels,2022-07-09 0:00:00,2022-07-09 0:00:00,300 Ski Tow Rd,Brownsville,VT,USA,43.46401063,-72.46680602,Mountain Bike,NULL
+57035,1126,2022 Minuteman CX -- p/b Minuteman Road Club,2022-10-09 0:00:00,2022-10-09 0:00:00,318 7 Bridge Rd,Lancaster,MA,USA,42.4645152,-71.6630244,Cyclocross,NEBRA
+57118,2547,Night Weasels Cometh,2022-10-01 0:00:00,2022-10-01 0:00:00,1000 Main St,Shrewsbury,MA,USA,42.3014714,-71.6828624,Cyclocross,NEBRA
+57119,2547,The Ice Weasels Cometh,2022-12-03 0:00:00,2022-12-03 0:00:00,Legion Rd,Southwick,MA,USA,42.0578058,-72.7533543,Cyclocross,NULL
+57313,1126,2022 Ski Ward Cyclocross Practice P/B Minuteman Road Club,2022-09-07 0:00:00,2022-09-29 0:00:00,1000 Main St,Shrewsbury,MA,USA,42.3015113,-71.6828297,Cyclocross,Cyclocross
+58324,2547,canceled - Ice Weasels 2:  The Frozen Stoats Advance,2022-12-18 0:00:00,2022-12-18 0:00:00,Legion Rd,Southwick,MA,USA,42.0578058,-72.7533543,Cyclocross,NULL
+58680,1126,2023 Minuteman Road Club Membership,2023-01-01 0:00:00,2023-12-31 0:00:00,,Boston and Metrowest,MA,USA,42.3921236,-71.55456996,Club Membership,NULL
+59060,2547,Gnar Weasels,2023-07-08 0:00:00,2023-07-08 0:00:00,300 Ski Tow Rd,Brownsville,VT,USA,43.46401063,-72.46680602,Mountain Bike,Eastern Fat Tire Association
+59458,1126,Ken Harrod Memorial Road Race p/b Minuteman Road Club,2023-05-20 0:00:00,2023-05-20 0:00:00,27 Massachusetts Ave.,Harvard,MA,USA,42.4981035,-71.5826638,Road Race,NEBRA
+61952,1126,2023 Minuteman CX -- p/b Minuteman Road Club,2023-10-08 0:00:00,2023-10-08 0:00:00,318 7 Bridge Rd,Lancaster,MA,USA,42.4645152,-71.6630244,Cyclocross,NEBRA
+62071,2547,canceled - Night Weasels Cometh,2023-10-07 0:00:00,2023-10-07 0:00:00,1000 Main St,Shrewsbury,MA,USA,42.3014714,-71.6828624,Cyclocross,NEBRA
+62500,2547,The Ice Weasels Cometh,2023-12-02 0:00:00,2023-12-02 0:00:00,Legion Rd,Southwick,MA,USA,42.05773649,-72.7518489,Cyclocross,NULL
+63550,2547,The Ice Weasels Cometh,2024-12-07 0:00:00,2024-12-07 0:00:00,Legion Rd,Southwick,MA,USA,42.05773649,-72.7518489,Cyclocross,NULL
+63935,1126,2024 Minuteman Road Club Membership,2024-01-02 0:00:00,2024-12-31 0:00:00,,Boston and Metrowest,MA,USA,42.3921236,-71.55456996,Club Membership,NULL
+63981,2547,Gnar Weasels,2024-05-25 0:00:00,2024-05-25 0:00:00,300 Ski Tow Rd,Brownsville,VT,USA,43.46401063,-72.46680602,Mountain Bike,Eastern Fat Tire Association
+65125,1126,Ken Harrod Memorial Road Race p/b Minuteman Road Club,2024-05-18 0:00:00,2024-05-18 0:00:00,27 Massachusetts Ave.,Harvard,MA,USA,42.4981035,-71.5826638,Road Race,NEBRA
+66977,1126,2024 Minuteman CX -- p/b Minuteman Road Club,2024-10-13 0:00:00,2024-10-13 0:00:00,318 7 Bridge Rd,Lancaster,MA,USA,42.4645152,-71.6630244,Cyclocross,NEBRA
+67779,2547,Gnar Weasels,2025-05-24 0:00:00,2025-05-24 0:00:00,300 Ski Tow Rd,Brownsville,VT,USA,43.46401063,-72.46680602,Mountain Bike,Eastern Fat Tire Association
+68637,2547,The Ice Weasels Cometh,2025-12-06 0:00:00,2025-12-06 0:00:00,Legion Rd,Southwick,MA,USA,42.05773649,-72.7518489,Cyclocross,Fat Bike
+68863,1126,2025 Minuteman Road Club Membership,2025-01-02 0:00:00,2025-12-31 0:00:00,,Boston and Metrowest,MA,USA,42.39227073,-71.55476667,Club Membership,NULL
+70276,1126,Sutton Road Race p/b Minuteman Road Club,2025-06-14 0:00:00,2025-06-14 0:00:00,409 Boston Rd,Sutton,MA,USA,42.1411299,-71.77256,Road Race,NEBRA
+71457,2547,Gnar Weasels,2026-06-27 0:00:00,2026-06-27 0:00:00,300 Ski Tow Rd,Brownsville,VT,USA,43.46401063,-72.46680602,Mountain Bike,Eastern Fat Tire Association
+72083,1126,2025 Minuteman CX -- p/b Minuteman Road Club,2025-10-12 0:00:00,2025-10-12 0:00:00,318 7 Bridge Rd,Lancaster,MA,USA,42.4645152,-71.6630244,Cyclocross,NEBRA
+73770,2547,The Ice Weasels Cometh,2026-12-05 0:00:00,2026-12-05 0:00:00,Legion Rd,Southwick,MA,USA,42.05773649,-72.7518489,Cyclocross,Fat Bike
+73995,1126,2026 Minuteman Road Club Membership,2026-01-01 0:00:00,2026-12-31 0:00:00,,Boston and Metrowest,MA,USA,42.39227073,-71.55476667,Club Membership,NULL
+1358,7756,Clayton-Tokeneke Classic,2004-07-11 0:00:00,2004-07-11 0:00:00,,Barkhamsted,CT,USA,41.9609445,-72.8558789,Road Race,NULL
+1930,7756,Tokeneke Road Club Team Registration,2005-10-01 0:00:00,2005-10-01 0:00:00,,Darien,CT,USA,43.7023722,-79.4861949,Club Membership,NULL
+2188,7756,Tokeneke Classic Road Race,2005-07-24 0:00:00,2005-07-24 0:00:00,,East Hartland,CT,USA,50.8501937,-0.9094455,Road Race,NULL
+3642,7756,Tokeneke Classic Road Race - 2006,2006-08-13 0:00:00,2006-08-13 0:00:00,,East Hartland,CT,USA,42.0112755,-72.9106202,Road Race,NEBRA
+4561,7756,Tokeneke Classic Road Race 2007,2007-07-29 0:00:00,2007-07-29 0:00:00,,East Hartland,CT,USA,50.8501937,-0.9094455,Road Race,NULL
+6511,7756,Tokeneke Classic Road Race 2008,2008-08-10 0:00:00,2008-08-10 0:00:00,,East Hartland,CT,USA,50.8501937,-0.9094455,Road Race,NULL
+8725,7756,Tokeneke Classic Road Race 2009,2009-08-09 0:00:00,2009-08-09 0:00:00,,East Hartland,CT,USA,42.0112755,-72.9106202,Road Race,NULL
+10779,7756,Tokeneke Classic Road Race 2010 - New England Regional Road Race Championships,2010-08-08 0:00:00,2010-08-08 0:00:00,,East Hartland,CT,USA,42.0112755,-72.9106202,Road Race,NULL
+13102,7756,Tokeneke Classic Road Race 2011 - New England Regional Road Race Championships,2011-08-14 0:00:00,2011-08-14 0:00:00,,East Hartland,CT,USA,42.0112755,-72.9106202,Road Race,NULL
+13117,3634,Jeremy Powers Wheelhouse Sports Grand Fundo 2011,2011-07-30 0:00:00,2011-07-30 0:00:00,,Southampton,MA,USA,42.209859,-72.789744,Recreational,Road Race
+13424,3634,NCC Montague Training Crit,2011-05-18 0:00:00,2011-05-18 0:00:00,,Montague,MA,USA,42.5462156,-72.5323139,Road Race,NULL
+13425,3634,NCC Montague Training Crit,2011-05-25 0:00:00,2011-05-25 0:00:00,,Montague,MA,USA,42.5462156,-72.5323139,Road Race,NULL
+13426,3634,NCC Montague Training Crit,2011-06-01 0:00:00,2011-06-01 0:00:00,,Montague,MA,USA,42.5462156,-72.5323139,Road Race,NULL
+13427,3634,NCC Montague Training Crit,2011-06-08 0:00:00,2011-06-08 0:00:00,,Montague,MA,USA,42.5462156,-72.5323139,Road Race,NULL
+13428,3634,NCC Montague Training Crit,2011-06-15 0:00:00,2011-06-15 0:00:00,,Montague,MA,USA,42.5462156,-72.5323139,Road Race,NULL
+13429,3634,NCC Montague Training Crit,2011-06-22 0:00:00,2011-06-22 0:00:00,,Montague,MA,USA,42.5462156,-72.5323139,Road Race,NULL
+15708,7756,Tokeneke Classic Road Race 2012 - Connecticut State and New England Regional Road Race Championships,2012-08-12 0:00:00,2012-08-12 0:00:00,,East Hartland,CT,USA,41.9988431,-72.9052281,Road Race,NULL
+15836,3634,Jeremy Powers Wheelhouse Sports Grand Fundo 2012,2012-07-14 0:00:00,2012-07-14 0:00:00,,Southampton,MA,USA,-72.7305556,42.2291667,Recreational,Road Race
+16372,3634,JAM Fund NCC Montague Training Crit Series,2012-05-16 0:00:00,2012-05-16 0:00:00,,Montague,MA,USA,42.5462156,-72.5323139,Road Race,NULL
+16550,3634,JAM Fund NCC Montague Training Crit Series,2012-05-30 0:00:00,2012-05-30 0:00:00,,Montague,MA,USA,42.5462156,-72.5323139,Road Race,NULL
+16551,3634,JAM Fund NCC Montague Training Crit Series,2012-06-06 0:00:00,2012-06-06 0:00:00,,Montague,MA,USA,42.5462156,-72.5323139,Road Race,NULL
+16552,3634,JAM Fund NCC Montague Training Crit Series,2012-06-13 0:00:00,2012-06-13 0:00:00,,Montague,MA,USA,42.5462156,-72.5323139,Road Race,NULL
+18927,3634,JAM Fund Grand Fundo,2013-07-21 0:00:00,2013-07-21 0:00:00,,Southampton,MA,USA,42.209859,-72.789744,Recreational,Road Race
+19193,7756,Tokeneke Classic Road Race 2013 - Connecticut State and New England Regional Road Race Championships,2013-08-11 0:00:00,2013-08-11 0:00:00,"Berg Field, 93 Hartland Blvd",East Hartland,CT,USA,42.0112755,-72.9106202,Road Race,NULL
+19346,3634,***Postponed until May 29th*****  JAM Fund NCC Montague Training Crit Series,2013-05-15 0:00:00,2013-05-15 0:00:00,,Montague,MA,USA,42.5462156,-72.5323139,Road Race,NULL
+19347,3634,JAM Fund NCC Montague Race Clinic,2013-05-22 0:00:00,2013-05-22 0:00:00,,Montague,MA,USA,42.5462156,-72.5323139,Road Race,NULL
+19348,3634,JAM Fund NCC Montague Training Crit Series,2013-05-29 0:00:00,2013-05-29 0:00:00,,Montague,MA,USA,42.5462156,-72.5323139,Road Race,NULL
+19349,3634,JAM Fund NCC Montague Training Crit Series,2013-06-05 0:00:00,2013-06-05 0:00:00,,Montague,MA,USA,42.5462156,-72.5323139,Road Race,NULL
+19350,3634,JAM Fund NCC Montague Training Crit Series,2013-06-12 0:00:00,2013-06-12 0:00:00,,Montague,MA,USA,42.5462156,-72.5323139,Road Race,NULL
+19780,3634,JAM Fund NCC Montague Training Crit Series,2013-06-19 0:00:00,2013-06-19 0:00:00,,Montague,MA,USA,42.5462156,-72.5323139,Road Race,NULL
+22680,7756,Tokeneke Classic Road Race 2014 - Connecticut State and New England Regional Road Race Championships,2014-08-10 0:00:00,2014-08-10 0:00:00,93 Hartland Blvd,East Hartland,CT,USA,41.9986824,-72.9052433,Road Race,NEBRA
+23077,3634,JAM Fund Grand Fundo,2014-07-19 0:00:00,2014-07-19 0:00:00,155 Glendale Road,Southampton,MA,USA,42.271164,-72.717111,Recreational,Road Race
+25093,3634,JAM Fund NCC Montague Training Crit Series,2014-06-25 0:00:00,2014-06-25 0:00:00,"Industrial Blvd. in Montague, MA",Montague,MA,USA,42.5967532,-72.5250117,Road Race,NULL
+25137,3634,JAM Fund NCC Montague Training Crit Series,2014-07-02 0:00:00,2014-07-02 0:00:00,"Industrial Blvd. in Montague, MA",Montague,MA,USA,42.5967532,-72.5250117,Road Race,NULL
+25138,3634,JAM Fund NCC Montague Training Crit Series,2014-07-09 0:00:00,2014-07-09 0:00:00,"Industrial Blvd. in Montague, MA",Montague,MA,USA,42.5967532,-72.5250117,Road Race,NULL
+25139,3634,JAM Fund NCC Montague Training Crit Series,2014-07-16 0:00:00,2014-07-16 0:00:00,"Industrial Blvd. in Montague, MA",Montague,MA,USA,42.5967532,-72.5250117,Road Race,NULL
+25140,3634,JAM Fund NCC Montague Training Crit Series,2014-07-23 0:00:00,2014-07-23 0:00:00,"Industrial Blvd. in Montague, MA",Montague,MA,USA,42.5967532,-72.5250117,Road Race,NULL
+26190,7756,Newtown Cyclocross p/b the CCAP and Team 26,2015-11-15 0:00:00,2015-11-15 0:00:00,4 Primrose St,Newtown,CT,USA,41.3997824,-73.2827539,Cyclocross,CT Cross Series
+27176,7756,Tokeneke Classic Road Race 2015,2015-08-09 0:00:00,2015-08-09 0:00:00,93 Hartland Blvd,East Hartland,CT,USA,41.9986824,-72.9052433,Road Race,NEBRA
+27441,3634,JAM Fund Grand Fundo,2015-07-25 0:00:00,2015-07-25 0:00:00,155 Glendale Road,Southampton,MA,USA,42.271164,-72.717111,Recreational,Road Race
+27933,7756,CCAP Junior Summer Camp,2015-08-02 0:00:00,2015-08-09 0:00:00,http://ctcyclingadvancement.org/,Old Lyme,CT,USA,41.3159315,-72.3289715,Cycling Camp,Road Race
+28366,3634,Northeast Solar Montague Training Crit Series,2015-07-01 0:00:00,2015-07-01 0:00:00,"Industrial Blvd. in Montague, MA",Montague,MA,USA,42.5967532,-72.5250117,Road Race,NULL
+28367,3634,Northeast Solar Montague Training Crit Series,2015-07-08 0:00:00,2015-07-08 0:00:00,"Industrial Blvd. in Montague, MA",Montague,MA,USA,42.5967532,-72.5250117,Road Race,NULL
+28368,3634,Northeast Solar Montague Training Crit Series,2015-07-15 0:00:00,2015-07-15 0:00:00,"Industrial Blvd. in Montague, MA",Montague,MA,USA,42.5967532,-72.5250117,Road Race,NULL
+28369,3634,Northeast Solar Montague Training Crit Series,2015-07-22 0:00:00,2015-07-22 0:00:00,"Industrial Blvd. in Montague, MA",Montague,MA,USA,42.5967532,-72.5250117,Road Race,NULL
+28370,3634,Northeast Solar Montague Training Crit Series,2015-08-05 0:00:00,2015-08-05 0:00:00,"Industrial Blvd. in Montague, MA",Montague,MA,USA,42.5967532,-72.5250117,Road Race,NULL
+28521,7756,The New Haven Grand Prix,2015-09-18 0:00:00,2015-09-18 0:00:00,1001 Chapel St,New Haven,CT,USA,41.3075092,-72.9291962,Road Race,NEBRA
+30123,7756,Aetna Tokeneke Classic Road Race presented with Slater Building LLC,2016-08-14 0:00:00,2016-08-14 0:00:00,93 Hartland Blvd,East Hartland,CT,USA,41.9986824,-72.9052433,Road Race,NEBRA
+30314,3634,JAM Fund Grand Fundo,2016-07-16 0:00:00,2016-07-16 0:00:00,155 Glendale Road,Southampton,MA,USA,42.271164,-72.717111,Recreational,Road Race
+30355,7756,CCAP School Short Track Series #1,2016-03-09 0:00:00,2016-03-09 0:00:00,"24 Gallup Hill Rd, Ledyard, CT 06339",Ledyard,CT,USA,41.4379772,-71.9954953,Mountain Bike,Mountain Bike
+30695,7756,CCAP School Short Track Series #2,2016-04-20 0:00:00,2016-04-20 0:00:00,"139 Patterson Way, Berlin, CT 06037",Berlin,CT,USA,41.6215956,-72.7529212,Mountain Bike,Mountain Bike
+30732,7756,5th Annual CCNS KERMIS p/b The CCAP,2016-05-13 0:00:00,2016-05-13 0:00:00,615 Silver Lane,East Hartford,CT,USA,41.7633643,-72.6170895,Road Race,CT Cross Series
+30736,7756,"The CCAP Tuesday Night Criterium Series p/b CT Ear, Nose and Throat",2016-05-03 0:00:00,2016-05-03 0:00:00,615 Silver Ln,East Hartford,CT,USA,41.7633533,-72.6170608,Road Race,NEBRA
+30740,7756,"The CCAP Tuesday Night Criterium Series p/b CT Ear, Nose and Throat",2016-05-10 0:00:00,2016-05-10 0:00:00,615 Silver Ln,East Hartford,CT,USA,41.7633533,-72.6170608,Road Race,NEBRA
+30742,7756,"The CCAP Tuesday Night Criterium Series p/b CT Ear, Nose and Throat",2016-05-24 0:00:00,2016-05-24 0:00:00,615 Silver Ln,East Hartford,CT,USA,41.7633533,-72.6170608,Road Race,NEBRA
+30744,7756,"The CCAP Tuesday Night Criterium Series p/b CT Ear, Nose and Throat",2016-05-31 0:00:00,2016-05-31 0:00:00,615 Silver Ln,East Hartford,CT,USA,41.7633533,-72.6170608,Road Race,NEBRA
+30745,7756,"The CCAP Tuesday Night Criterium Series p/b CT Ear, Nose and Throat",2016-06-07 0:00:00,2016-06-07 0:00:00,615 Silver Ln,East Hartford,CT,USA,41.7633533,-72.6170608,Road Race,NEBRA
+30746,7756,"The CCAP Tuesday Night Criterium Series p/b CT Ear, Nose and Throat",2016-06-14 0:00:00,2016-06-14 0:00:00,615 Silver Ln,East Hartford,CT,USA,41.7633533,-72.6170608,Road Race,NEBRA
+30747,7756,"The CCAP Tuesday Night Criterium Series p/b CT Ear, Nose and Throat",2016-06-28 0:00:00,2016-06-28 0:00:00,615 Silver Ln,East Hartford,CT,USA,41.7633533,-72.6170608,Road Race,NEBRA
+30748,7756,"The CCAP Tuesday Night Criterium Series p/b CT Ear, Nose and Throat",2016-07-05 0:00:00,2016-07-05 0:00:00,615 Silver Ln,East Hartford,CT,USA,41.7633533,-72.6170608,Road Race,NEBRA
+30749,7756,"The CCAP Tuesday Night Criterium Series p/b CT Ear, Nose and Throat",2016-07-12 0:00:00,2016-07-12 0:00:00,615 Silver Ln,East Hartford,CT,USA,41.7633533,-72.6170608,Road Race,NEBRA
+30750,7756,"The CCAP Tuesday Night Criterium Series p/b CT Ear, Nose and Throat",2016-07-19 0:00:00,2016-07-19 0:00:00,615 Silver Ln,East Hartford,CT,USA,41.7633533,-72.6170608,Road Race,NEBRA
+30751,7756,"The CCAP Tuesday Night Criterium Series p/b CT Ear, Nose and Throat",2016-07-26 0:00:00,2016-07-26 0:00:00,615 Silver Ln,East Hartford,CT,USA,41.7633533,-72.6170608,Road Race,NEBRA
+30752,7756,"The CCAP Tuesday Night Criterium Series p/b CT Ear, Nose and Throat",2016-08-02 0:00:00,2016-08-02 0:00:00,615 Silver Ln,East Hartford,CT,USA,41.7633533,-72.6170608,Road Race,NEBRA
+30753,7756,"The CCAP Tuesday Night Criterium Series p/b CT Ear, Nose and Throat",2016-08-09 0:00:00,2016-08-09 0:00:00,615 Silver Ln,East Hartford,CT,USA,41.7633533,-72.6170608,Road Race,NEBRA
+30754,7756,"The CCAP Tuesday Night Criterium Series p/b CT Ear, Nose and Throat",2016-08-16 0:00:00,2016-08-16 0:00:00,615 Silver Ln,East Hartford,CT,USA,41.7633533,-72.6170608,Road Race,NEBRA
+31026,7756,CCAP School Short Track Series #3,2016-05-12 0:00:00,2016-05-12 0:00:00,"1110 Wintergreen Ave, New Haven, CT, New Haven, CT  06515",New Haven,CT,USA,41.3464592,-72.9676615,Mountain Bike,Mountain Bike
+31367,7756,CCAP Junior Summer Mountain Biking Camp,2016-07-31 0:00:00,2016-08-06 0:00:00,University of Connecticut,Mansfield,CT,USA,41.8104735,-72.2941114,Cycling Camp,Mountain Bike
+31373,7756,CCAP Junior Summer Road Camp,2016-08-07 0:00:00,2016-08-14 0:00:00,University of Connecticut,Mansfield,CT,USA,41.8104735,-72.2941114,Cycling Camp,Road Race
+31523,7756,The New Haven Grand Prix,2016-09-16 0:00:00,2016-09-16 0:00:00,1001 Chapel St,New Haven,CT,USA,41.3075092,-72.9291962,Road Race,NEBRA
+31746,7756,CT CX Summer Training Camp,2016-08-19 0:00:00,2016-08-21 0:00:00,74 Forest Lane,Glastonbury,CT,USA,41.6867639,-72.534846,Cycling Camp,Cyclocross
+31846,3634,Northeast Solar Montague Training Crit Series,2016-07-06 0:00:00,2016-07-06 0:00:00,"Industrial Blvd. in Montague, MA",Montague,MA,USA,42.5967532,-72.5250117,Road Race,NULL
+31847,3634,Northeast Solar Montague Training Crit Series,2016-07-13 0:00:00,2016-07-13 0:00:00,"Industrial Blvd. in Montague, MA",Montague,MA,USA,42.5967532,-72.5250117,Road Race,NULL
+31848,3634,Northeast Solar Montague Training Crit Series,2016-07-20 0:00:00,2016-07-20 0:00:00,"Industrial Blvd. in Montague, MA",Montague,MA,USA,42.5967532,-72.5250117,Road Race,NULL
+31849,3634,Northeast Solar Montague Training Crit Series,2016-08-03 0:00:00,2016-08-03 0:00:00,"Industrial Blvd. in Montague, MA",Montague,MA,USA,42.5967532,-72.5250117,Road Race,NULL
+32020,7756,CCAP ROCKY HILL CYCLOCROSS SERIES,2016-09-07 0:00:00,2016-09-28 0:00:00,340 Elm St.,Rocky Hill,CT,USA,41.66160668,-72.65200384,Cyclocross,NEBRA
+32450,7756,Newtown Cyclocross p/b the CCAP and Team 26,2016-11-06 0:00:00,2016-11-06 0:00:00,4 Primrose St,Newtown,CT,USA,41.3997824,-73.2827539,Cyclocross,CT Cross Series
+32545,7756,CCAP ROCKY HILL CYCLOCROSS SERIES,2016-09-14 0:00:00,2016-09-14 0:00:00,340 Elm St.,Rocky Hill,CT,USA,41.66160668,-72.65200384,Cyclocross,NEBRA
+32546,7756,CCAP ROCKY HILL CYCLOCROSS SERIES,2016-09-21 0:00:00,2016-09-21 0:00:00,340 Elm St.,Rocky Hill,CT,USA,41.66160668,-72.65200384,Cyclocross,NEBRA
+32547,7756,CCAP ROCKY HILL CYCLOCROSS SERIES,2016-09-28 0:00:00,2016-09-28 0:00:00,340 Elm St.,Rocky Hill,CT,USA,41.66160668,-72.65200384,Cyclocross,NEBRA
+32589,7756,CCAP Donut Derby,2016-10-23 0:00:00,2016-10-23 0:00:00,366 Hopyard Rd,East Haddam,CT,USA,41.484981,-72.337318,Road Race,Gravel
+33173,7756,CCAP Junior Summer Mountain Bike Camp,2017-07-30 0:00:00,2017-08-05 0:00:00,University of Connecticut,Mansfield,CT,USA,41.8104735,-72.2941114,Cycling Camp,Cycling Camp
+33626,7756,Aetna Tokeneke Classic Road Race presented with Slater Building LLC,2017-08-13 0:00:00,2017-08-13 0:00:00,93 Hartland Blvd,East Hartland,CT,USA,41.9986824,-72.9052433,Road Race,NEBRA
+33690,7756,CCAP Junior Summer Road Camp,2017-08-06 0:00:00,2017-08-13 0:00:00,University of Connecticut,Mansfield,CT,USA,41.8104735,-72.2941114,Cycling Camp,Road Race
+33811,7756,CCAP School Short Track Series #1 IDS,2017-04-05 0:00:00,2017-04-05 0:00:00,"115 Laurel Brook Rd, Middlefield, CT 06455",Middlefield,CT,USA,41.5084347,-72.6878328,Mountain Bike,CT Cross Series
+33813,7756,CCAP School Short Track Series #2 Berlin,2017-04-19 0:00:00,2017-04-19 0:00:00,"139 Patterson Way, Berlin, CT 06037",Berlin,CT,USA,41.6215956,-72.7529212,Mountain Bike,NEBRA
+33814,7756,CCAP School Short Track Series #3 Ledyard,2017-04-26 0:00:00,2017-04-26 0:00:00,"1860 CT-12, Gales Ferry, CT 06335",Ledyard,CT,USA,41.4505051,-72.0732474,Mountain Bike,NEBRA
+33816,7756,"The CCAP Tuesday Night Criterium Series p/b CT Ear, Nose and Throat",2017-05-02 0:00:00,2017-05-02 0:00:00,615 Silver Ln,East Hartford,CT,USA,41.7633533,-72.6170608,Road Race,NEBRA
+33817,7756,"The CCAP Tuesday Night Criterium Series p/b CT Ear, Nose and Throat",2017-05-09 0:00:00,2017-05-09 0:00:00,615 Silver Ln,East Hartford,CT,USA,41.7633533,-72.6170608,Road Race,NEBRA
+33818,7756,"The CCAP Tuesday Night Criterium Series p/b CT Ear, Nose and Throat",2017-05-16 0:00:00,2017-05-16 0:00:00,615 Silver Ln,East Hartford,CT,USA,41.7633533,-72.6170608,Road Race,NEBRA
+33819,7756,"The CCAP Tuesday Night Criterium Series p/b CT Ear, Nose and Throat",2017-05-23 0:00:00,2017-05-23 0:00:00,615 Silver Ln,East Hartford,CT,USA,41.7633533,-72.6170608,Road Race,NEBRA
+33820,7756,"The CCAP Tuesday Night Criterium Series p/b CT Ear, Nose and Throat",2017-06-06 0:00:00,2017-06-06 0:00:00,615 Silver Ln,East Hartford,CT,USA,41.7633533,-72.6170608,Road Race,NEBRA
+33821,7756,"The CCAP Tuesday Night Criterium Series p/b CT Ear, Nose and Throat",2017-05-30 0:00:00,2017-05-30 0:00:00,615 Silver Ln,East Hartford,CT,USA,41.7600257,-72.6184474,Road Race,NEBRA
+33825,7756,"The CCAP Tuesday Night Criterium Series p/b CT Ear, Nose and Throat",2017-06-20 0:00:00,2017-06-20 0:00:00,615 Silver Ln,East Hartford,CT,USA,41.7600257,-72.6184474,Road Race,NEBRA
+33826,7756,"The CCAP Tuesday Night Criterium Series p/b CT Ear, Nose and Throat",2017-07-18 0:00:00,2017-07-18 0:00:00,615 Silver Ln,East Hartford,CT,USA,41.7600257,-72.6184474,Road Race,NEBRA
+33827,7756,"The CCAP Tuesday Night Criterium Series p/b CT Ear, Nose and Throat",2017-08-08 0:00:00,2017-08-08 0:00:00,615 Silver Ln,East Hartford,CT,USA,41.7600257,-72.6184474,Road Race,NEBRA
+33828,7756,"The CCAP Tuesday Night Criterium Series p/b CT Ear, Nose and Throat",2017-06-13 0:00:00,2017-06-13 0:00:00,615 Silver Ln,East Hartford,CT,USA,41.7633533,-72.6170608,Road Race,NEBRA
+33829,7756,"The CCAP Tuesday Night Criterium Series p/b CT Ear, Nose and Throat",2017-06-27 0:00:00,2017-06-27 0:00:00,615 Silver Ln,East Hartford,CT,USA,41.7633533,-72.6170608,Road Race,NEBRA
+33830,7756,"The CCAP Tuesday Night Criterium Series p/b CT Ear, Nose and Throat",2017-07-11 0:00:00,2017-07-11 0:00:00,615 Silver Ln,East Hartford,CT,USA,41.7633533,-72.6170608,Road Race,NEBRA
+33831,7756,"The CCAP Tuesday Night Criterium Series p/b CT Ear, Nose and Throat",2017-07-25 0:00:00,2017-07-25 0:00:00,615 Silver Ln,East Hartford,CT,USA,41.7633533,-72.6170608,Road Race,NEBRA
+33832,7756,"The CCAP Tuesday Night Criterium Series p/b CT Ear, Nose and Throat",2017-08-01 0:00:00,2017-08-01 0:00:00,615 Silver Ln,East Hartford,CT,USA,41.7633533,-72.6170608,Road Race,NEBRA
+33833,7756,"The CCAP Tuesday Night Criterium Series p/b CT Ear, Nose and Throat",2017-08-15 0:00:00,2017-08-15 0:00:00,615 Silver Ln,East Hartford,CT,USA,41.7633533,-72.6170608,Road Race,NEBRA
+33837,7756,Team Red Dragon MTB Race in honor of Todd Haskins at Hatchery Brook p/b CCAP,2017-04-29 0:00:00,2017-04-29 0:00:00,"Orchard Road, Kensington, CT",Berlin,CT,USA,41.5920892,-72.7851519,Mountain Bike,NEBRA
+33904,7756,6th Annual CCNS KERMIS p/b The CCAP,2017-05-19 0:00:00,2017-05-19 0:00:00,615 Silver Lane,East Hartford,CT,USA,41.7633643,-72.6170895,Road Race,NEBRA
+33947,3634,JAM Fund Grand Fundo,2017-07-22 0:00:00,2017-07-22 0:00:00,155 Glendale Road,Southampton,MA,USA,42.271164,-72.717111,Recreational,Gran Fondo
+34040,7756,CCAP Cheshire/Hamden Rail Trailers,2017-03-13 0:00:00,2017-06-22 0:00:00,,Cheshire,CT,USA,41.49146185,-72.8563714,Club Membership,NEBRA
+34042,7756,CCAP Muddy Mayhem MTB Team,2017-03-16 0:00:00,2017-06-22 0:00:00,,Glastonbury,CT,USA,41.71795839,-72.51111746,Club Membership,NEBRA
+34043,7756,CCAP Croissant Crushers,2017-03-11 0:00:00,2017-06-22 0:00:00,,Woodbury,CT,USA,41.51768762,-73.21834087,Club Membership,NEBRA
+34044,7756,CCAP Rocklandia Rad & Gnar MTB Team,2017-03-16 0:00:00,2017-06-22 0:00:00,,Guilford,CT,USA,41.38799806,-72.61271954,Club Membership,NEBRA
+34668,7756,The 2017 CCAP Breakaway Benefit,2017-05-13 0:00:00,2017-05-13 0:00:00,99 Powder Hill Road,middlefield,CT,USA,41.503782,-72.7296886,Recreational,Road Race
+34922,7756,New Haven Wheelie Battle,2017-06-03 0:00:00,2017-06-03 0:00:00,Long Wharf Park,New Haven,CT,USA,41.2872785,-72.925781,Special Event,NULL
+35371,7756,The CCAP's Junior CTCX Camp,2017-08-19 0:00:00,2017-08-20 0:00:00,74 Forest Lane,Glastonbury,CT,USA,41.6867639,-72.534846,Cycling Camp,Cyclocross
+35399,7756,The New Haven Grand Prix,2017-09-15 0:00:00,2017-09-15 0:00:00,1001 Chapel St,New Haven,CT,USA,41.3075092,-72.9291962,Road Race,NEBRA
+35418,3634,Northeast Solar Montague Training Crit Series,2017-07-05 0:00:00,2017-07-05 0:00:00,"Industrial Blvd. in Montague, MA",Montague,MA,USA,42.5967532,-72.5250117,Road Race,NEBRA
+35419,3634,Northeast Solar Montague Training Crit Series,2017-07-12 0:00:00,2017-07-12 0:00:00,"Industrial Blvd. in Montague, MA",Montague,MA,USA,42.5967532,-72.5250117,Road Race,NEBRA
+35420,3634,Northeast Solar Montague Training Crit Series,2017-07-19 0:00:00,2017-07-19 0:00:00,"Industrial Blvd. in Montague, MA",Montague,MA,USA,42.5967532,-72.5250117,Road Race,NEBRA
+35421,3634,Northeast Solar Montague Training Crit Series,2017-08-02 0:00:00,2017-08-02 0:00:00,"Industrial Blvd. in Montague, MA",Montague,MA,USA,42.5967532,-72.5250117,Road Race,NEBRA
+35516,7756,Aetna Tokeneke Classic Bicycle and Merchandise Give Away,2017-08-13 0:00:00,2017-08-13 0:00:00,93 Hartland Blvd,Hartland,CT,USA,41.9986941,-72.9052337,Special Event,NULL
+35661,7756,CCAP ROCKY HILL CYCLOCROSS SERIES,2017-09-06 0:00:00,2017-09-27 0:00:00,340 Elm St.,Rocky Hill,CT,USA,41.66160668,-72.65200384,Cyclocross,NEBRA
+35663,7756,CCAP ROCKY HILL CYCLOCROSS SERIES,2017-09-13 0:00:00,2017-09-13 0:00:00,340 Elm St.,Rocky Hill,CT,USA,41.66160668,-72.65200384,Cyclocross,NEBRA
+35664,7756,CCAP ROCKY HILL CYCLOCROSS SERIES,2017-09-20 0:00:00,2017-09-20 0:00:00,340 Elm St.,Rocky Hill,CT,USA,41.66160668,-72.65200384,Cyclocross,NEBRA
+35665,7756,CCAP ROCKY HILL CYCLOCROSS SERIES,2017-09-27 0:00:00,2017-09-27 0:00:00,340 Elm St.,Rocky Hill,CT,USA,41.66160668,-72.65200384,Cyclocross,NEBRA
+35893,7756,Newtown Cyclocross p/b the CCAP and Team 26,2017-11-05 0:00:00,2017-11-05 0:00:00,"4 Wildlife Dr Newtown, CT 06470",Newtown,CT,USA,41.405166,-73.2857648,Cyclocross,CT Cross Series
+36179,7756,CCAP School CX Series #1 Ledyard,2017-10-04 0:00:00,2017-10-04 0:00:00,1860 CT-12,Ledyard,CT,USA,41.4505051,-72.0732474,Cyclocross,NULL
+36180,7756,CCAP School CX Series #2 IDS,2017-10-11 0:00:00,2017-10-11 0:00:00,115 Laurel Brook Rd,Middlefield,CT,USA,41.5084347,-72.6878328,Cyclocross,CT Cross Series
+36181,7756,CCAP School CX Series #3 Waterford,2017-10-18 0:00:00,2017-10-18 0:00:00,105 clark lane,Waterford,CT,USA,41.3495836,-72.1277353,Cyclocross,NULL
+36182,7756,CCAP School CX Series #4 New Haven,2017-10-25 0:00:00,2017-10-25 0:00:00,Edgewood Ave,New Haven,CT,USA,41.3134818,-72.9447422,Cyclocross,NULL
+36183,7756,CCAP School CX Series #5 New Haven,2017-11-01 0:00:00,2017-11-01 0:00:00,Hobart St. & Edgewood Ave,New Haven,CT,USA,41.3159564,-72.9533731,Cyclocross,NULL
+37420,7756,CCAP Spring 2018 Regional MTB Teams,2018-03-19 0:00:00,2018-07-08 0:00:00,353 main st,Middletown,CT,USA,41.56056683,-72.6504904,Club Membership,NULL
+37600,7756,7th Annual CCNS KERMIS p/b The CCAP,2018-05-18 0:00:00,2018-05-18 0:00:00,615 Silver Lane,East Hartford,CT,USA,41.7633643,-72.6170895,Road Race,NEBRA
+37601,7756,CCAP Junior Summer Mountain Bike Camp,2018-07-29 0:00:00,2018-08-04 0:00:00,University of Connecticut,Mansfield,CT,USA,41.8104735,-72.2941114,Cycling Camp,Cycling Camp
+37602,7756,CCAP Junior Summer Road Camp,2018-07-08 0:00:00,2018-07-14 0:00:00,University of Connecticut,Mansfield,CT,USA,41.8104735,-72.2941114,Cycling Camp,Road Race
+37743,3634,JAM Fund Grand Fundo,2018-07-14 0:00:00,2018-07-14 0:00:00,155 Glendale Road,Southampton,MA,USA,42.271164,-72.717111,Gravel,Gran Fondo
+37836,7756,"The CCAP Tuesday Night Criterium Series p/b CT Ear, Nose and Throat",2018-05-01 0:00:00,2018-05-01 0:00:00,615 Silver Ln,East Hartford,CT,USA,41.7633533,-72.6170608,Road Race,NEBRA
+37840,7756,The 2018 CCAP Breakaway Benefit,2018-05-12 0:00:00,2018-05-12 0:00:00,60 Villa Louisa Rd,Bolton,CT,USA,41.7412183,-72.4621189,Recreational,Road Race
+37844,7756,Center Subaru Tokeneke Classic Road Race 2018,2018-08-12 0:00:00,2018-08-12 0:00:00,93 Hartland Blvd,East Hartland,CT,USA,41.9986824,-72.9052433,Road Race,NEBRA
+37870,7756,"The CCAP Tuesday Night Criterium Series p/b CT Ear, Nose and Throat",2018-05-08 0:00:00,2018-05-08 0:00:00,615 Silver Ln,East Hartford,CT,USA,41.7633533,-72.6170608,Road Race,NEBRA
+37871,7756,"The CCAP Tuesday Night Criterium Series p/b CT Ear, Nose and Throat",2018-05-15 0:00:00,2018-05-15 0:00:00,615 Silver Ln,East Hartford,CT,USA,41.7633533,-72.6170608,Road Race,NEBRA
+37872,7756,"The CCAP Tuesday Night Criterium Series p/b CT Ear, Nose and Throat",2018-05-22 0:00:00,2018-05-22 0:00:00,615 Silver Ln,East Hartford,CT,USA,41.7633533,-72.6170608,Road Race,NEBRA
+37873,7756,"The CCAP Tuesday Night Criterium Series p/b CT Ear, Nose and Throat",2018-06-05 0:00:00,2018-06-05 0:00:00,615 Silver Ln,East Hartford,CT,USA,41.7633533,-72.6170608,Road Race,NEBRA
+37874,7756,"The CCAP Tuesday Night Criterium Series p/b CT Ear, Nose and Throat",2018-06-12 0:00:00,2018-06-12 0:00:00,615 Silver Ln,East Hartford,CT,USA,41.7633533,-72.6170608,Road Race,NEBRA
+37875,7756,"The CCAP Tuesday Night Criterium Series p/b CT Ear, Nose and Throat",2018-06-19 0:00:00,2018-06-19 0:00:00,615 Silver Ln,East Hartford,CT,USA,41.7633533,-72.6170608,Road Race,NEBRA
+37876,7756,"The CCAP Tuesday Night Criterium Series p/b CT Ear, Nose and Throat",2018-07-03 0:00:00,2018-07-03 0:00:00,615 Silver Ln,East Hartford,CT,USA,41.7633533,-72.6170608,Road Race,NEBRA
+37877,7756,"The CCAP Tuesday Night Criterium Series p/b CT Ear, Nose and Throat",2018-07-17 0:00:00,2018-07-17 0:00:00,615 Silver Ln,East Hartford,CT,USA,41.7633533,-72.6170608,Road Race,NEBRA
+37878,7756,"The CCAP Tuesday Night Criterium Series p/b CT Ear, Nose and Throat",2018-07-10 0:00:00,2018-07-10 0:00:00,615 Silver Ln,East Hartford,CT,USA,41.7633533,-72.6170608,Road Race,NEBRA
+37879,7756,"The CCAP Tuesday Night Criterium Series p/b CT Ear, Nose and Throat",2018-07-24 0:00:00,2018-07-24 0:00:00,615 Silver Ln,East Hartford,CT,USA,41.7633533,-72.6170608,Road Race,NEBRA
+37880,7756,"The CCAP Tuesday Night Criterium Series p/b CT Ear, Nose and Throat",2018-07-31 0:00:00,2018-07-31 0:00:00,615 Silver Ln,East Hartford,CT,USA,41.7633533,-72.6170608,Road Race,NEBRA
+37881,7756,"The CCAP Tuesday Night Criterium Series p/b CT Ear, Nose and Throat",2018-08-14 0:00:00,2018-08-14 0:00:00,615 Silver Ln,East Hartford,CT,USA,41.7633533,-72.6170608,Road Race,NEBRA
+37983,7756,CBR Offroad Series 2018 Registration & Number Plate,2018-04-08 0:00:00,2018-07-08 0:00:00,,Middletown,CT,USA,41.5460323,-72.6505957,Mountain Bike,NEBRA
+38237,7756,CCAP School Short Track Series #2 Waterford,2018-05-02 0:00:00,2018-05-02 0:00:00,105 Clark Ln,Waterford,CT,USA,41.3513325,-72.12794629,Mountain Bike,NULL
+38238,7756,CCAP School Short Track Series #4 Ledyard,2018-06-06 0:00:00,2018-06-06 0:00:00,1860 CT-12,Ledyard,CT,USA,41.4516263,-72.067415,Mountain Bike,NULL
+38239,7756,CCAP School Short Track Series #3 Berlin,2018-05-09 0:00:00,2018-05-09 0:00:00,139 Patterson Way,Berlin,CT,USA,41.6215191,-72.7527695,Mountain Bike,NULL
+38240,7756,CCAP School Short Track Series #3 New Haven,2018-05-23 0:00:00,2018-05-23 0:00:00,1080 Wintergreen Ave,Hamden,CT,USA,41.3475143,-72.96562888,Mountain Bike,NULL
+38269,7756,CCAP Summer Road Teams,2018-05-01 0:00:00,2018-09-14 0:00:00,353 Main St,Middletown,CT,USA,41.5610795,-72.6504669,Club Membership,CT Cross Series
+38309,7756,CCAP Test Event,2018-06-21 0:00:00,2018-06-21 0:00:00,353 Main St,Middletown,CT,USA,41.5610795,-72.6504669,Road Race,NEBRA
+38654,7756,New Haven Wheelie Battle,2018-06-02 0:00:00,2018-06-02 0:00:00,Long Wharf Park,New Haven,CT,USA,41.2872785,-72.925781,Special Event,NULL
+38694,7756,Team Red Dragon MTB Race at Hatchery Brook p/b CCAP,2018-05-20 0:00:00,2018-05-20 0:00:00,"Orchard Road, Kensington, CT",Berlin,CT,USA,41.5920892,-72.7851519,Mountain Bike,NEBRA
+38808,7756,CCAP Spring 2018 Branford Regional MTB Team,2018-07-08 0:00:00,2018-07-08 0:00:00,353 main st,Middletown,CT,USA,41.56056683,-72.6504904,Club Membership,NULL
+39119,7756,The CCAP Youth CTCX Camp,2018-08-18 0:00:00,2018-08-19 0:00:00,74 Forest Lane,Glastonbury,CT,USA,41.6867639,-72.534846,Cycling Camp,Cyclocross
+39196,7756,ConnectiCare Gran Fondo,2018-09-15 0:00:00,2018-09-15 0:00:00,1288 Boston Post Rd,Madison,CT,USA,41.2697656,-72.5590716,Gran Fondo,NEBRA
+39234,7756,CCAP Fall 2018 CX Teams,2018-09-01 0:00:00,2018-12-30 0:00:00,353 Main St,Middletown,CT,USA,41.5610795,-72.6504669,Club Membership,NEBRA
+39333,7756,The New Haven Grand Prix,2018-09-14 0:00:00,2018-09-14 0:00:00,1001 Chapel St,New Haven,CT,USA,41.3075092,-72.9291962,Road Race,NEBRA
+39349,7756,"The CCAP Tuesday Night Criterium Series p/b CT Ear, Nose and Throat",2018-06-26 0:00:00,2018-06-26 0:00:00,615 Silver Ln,East Hartford,CT,USA,41.7633533,-72.6170608,Road Race,NEBRA
+39353,3634,Northeast Solar Montague Training Crit Series,2018-07-18 0:00:00,2018-07-18 0:00:00,"Industrial Blvd. in Montague, MA",Montague,MA,USA,42.5967532,-72.5250117,Road Race,NEBRA
+39354,3634,Northeast Solar Montague Training Crit Series No Race tonight Thunder Storms predicted all afternoon,2018-07-25 0:00:00,2018-07-25 0:00:00,"Industrial Blvd. in Montague, MA",Montague,MA,USA,42.5967532,-72.5250117,Road Race,NEBRA
+39355,3634,Northeast Solar Montague Training Crit Series Race Cancelled Thunderstorms again predicted tonight,2018-08-01 0:00:00,2018-08-01 0:00:00,"Industrial Blvd. in Montague, MA",Montague,MA,USA,42.5967532,-72.5250117,Road Race,NEBRA
+39356,3634,Northeast Solar Montague Training Crit Series,2018-08-08 0:00:00,2018-08-08 0:00:00,"Industrial Blvd. in Montague, MA",Montague,MA,USA,42.5967532,-72.5250117,Road Race,NEBRA
+39742,7756,"The CCAP Tuesday Night Criterium Series p/b CT Ear, Nose and Throat",2018-08-07 0:00:00,2018-08-07 0:00:00,615 Silver Ln,East Hartford,CT,USA,41.7633533,-72.6170608,Road Race,NEBRA
+39878,7756,CCAP ROCKY HILL CYCLOCROSS SERIES,2018-09-05 0:00:00,2018-09-05 0:00:00,340 Elm St.,Rocky Hill,CT,USA,41.66160668,-72.65200384,Cyclocross,NEBRA
+39891,7756,Newtown Cyclocross p/b the CCAP and Team 26,2018-09-23 0:00:00,2018-09-23 0:00:00,"4 Wildlife Dr Newtown, CT 06470",Newtown,CT,USA,41.405166,-73.2857648,Cyclocross,CT Cross Series
+39909,7756,CCAP ROCKY HILL CYCLOCROSS SERIES,2018-09-12 0:00:00,2018-09-12 0:00:00,340 Elm St.,Rocky Hill,CT,USA,41.66160668,-72.65200384,Cyclocross,NEBRA
+39910,7756,CCAP ROCKY HILL CYCLOCROSS SERIES,2018-09-19 0:00:00,2018-09-19 0:00:00,340 Elm St.,Rocky Hill,CT,USA,41.66160668,-72.65200384,Cyclocross,NEBRA
+39911,7756,CCAP ROCKY HILL CYCLOCROSS SERIES,2018-09-26 0:00:00,2018-09-26 0:00:00,340 Elm St.,Rocky Hill,CT,USA,41.66160668,-72.65200384,Cyclocross,NEBRA
+39913,7756,CCAP Oyster Cross Training Series,2018-09-04 0:00:00,2018-09-04 0:00:00,77 N Water St,Norwalk,CT,USA,41.1037057,-73.4171463,Cyclocross,NEBRA
+40010,7756,CCAP Oyster Cross Training Series,2018-09-11 0:00:00,2018-09-11 0:00:00,77 N Water St,Norwalk,CT,USA,41.1037057,-73.4171463,Cyclocross,NEBRA
+40011,7756,CCAP Oyster Cross Training Series,2018-09-18 0:00:00,2018-09-18 0:00:00,77 N Water St,Norwalk,CT,USA,41.1037057,-73.4171463,Cyclocross,NEBRA
+40012,7756,CCAP Oyster Cross Training Series,2018-09-25 0:00:00,2018-09-25 0:00:00,77 N Water St,Norwalk,CT,USA,41.1037057,-73.4171463,Cyclocross,NEBRA
+40178,7756,CCAP Oyster Cross Training Series,2018-10-02 0:00:00,2018-10-02 0:00:00,77 N Water St,Norwalk,CT,USA,41.1037057,-73.4171463,Cyclocross,NEBRA
+40199,7756,CCAP School CX Series #3 New Haven,2018-10-24 0:00:00,2018-10-24 0:00:00,Edgewood Ave,New Haven,CT,USA,41.31545727,-72.95358813,Cyclocross,NEBRA
+40262,7756,CCAP ROCKY HILL CYCLOCROSS SERIES,2018-10-10 0:00:00,2018-10-10 0:00:00,340 Elm St.,Rocky Hill,CT,USA,41.66160668,-72.65200384,Cyclocross,NEBRA
+40381,7756,CCAP Spring 2019 MTB Teams,2019-04-01 0:00:00,2019-06-23 0:00:00,353 Main St,Connecticut,CT,USA,41.5965955,-72.6458889,Club Membership,NEBRA
+40639,7756,CCAP Junior Summer Road Camp,2019-08-04 0:00:00,2019-08-10 0:00:00,University of Connecticut,Mansfield,CT,USA,41.8104735,-72.2941114,Cycling Camp,Road Race
+40640,7756,CCAP Junior Summer Mountain Bike Camp,2019-07-28 0:00:00,2019-08-03 0:00:00,University of Connecticut,Mansfield,CT,USA,41.8104735,-72.2941114,Cycling Camp,Mountain Bike
+40646,7756,The CCAP Tuesday Night Criterium Series p/b CT's Top Eye & Ear Doctors,2019-05-07 0:00:00,2019-05-07 0:00:00,615 Silver Ln,East Hartford,CT,USA,41.7633533,-72.6170608,Road Race,NEBRA
+40647,7756,The CCAP Tuesday Night Criterium Series p/b CT's Top Eye & Ear Doctors,2019-05-21 0:00:00,2019-05-21 0:00:00,615 Silver Ln,East Hartford,CT,USA,41.7633533,-72.6170608,Road Race,NEBRA
+40648,7756,The CCAP Tuesday Night Criterium Series p/b CT's Top Eye & Ear Doctors,2019-06-04 0:00:00,2019-06-04 0:00:00,615 Silver Ln,East Hartford,CT,USA,41.7633533,-72.6170608,Road Race,NEBRA
+40649,7756,The CCAP Tuesday Night Criterium Series p/b CT's Top Eye & Ear Doctors,2019-06-11 0:00:00,2019-06-11 0:00:00,615 Silver Ln,East Hartford,CT,USA,41.7633533,-72.6170608,Road Race,NEBRA
+40650,7756,The CCAP Tuesday Night Criterium Series p/b CT's Top Eye & Ear Doctors,2019-06-18 0:00:00,2019-06-18 0:00:00,615 Silver Ln,East Hartford,CT,USA,41.7633533,-72.6170608,Road Race,NEBRA
+40651,7756,The CCAP Tuesday Night Criterium Series p/b CT's Top Eye & Ear Doctors,2019-06-25 0:00:00,2019-06-25 0:00:00,615 Silver Ln,East Hartford,CT,USA,41.7633533,-72.6170608,Road Race,NEBRA
+40652,7756,The CCAP Tuesday Night Criterium Series p/b CT's Top Eye & Ear Doctors,2019-07-02 0:00:00,2019-07-02 0:00:00,615 Silver Ln,East Hartford,CT,USA,41.7633533,-72.6170608,Road Race,NEBRA
+40653,7756,The CCAP Tuesday Night Criterium Series p/b CT's Top Eye & Ear Doctors,2019-07-09 0:00:00,2019-07-09 0:00:00,615 Silver Ln,East Hartford,CT,USA,41.7633533,-72.6170608,Road Race,NEBRA
+40654,7756,The CCAP Tuesday Night Criterium Series p/b CT's Top Eye & Ear Doctors,2019-07-16 0:00:00,2019-07-16 0:00:00,615 Silver Ln,East Hartford,CT,USA,41.7633533,-72.6170608,Road Race,NEBRA
+40655,7756,The CCAP Tuesday Night Criterium Series p/b CT's Top Eye & Ear Doctors,2019-07-23 0:00:00,2019-07-23 0:00:00,615 Silver Ln,East Hartford,CT,USA,41.7633533,-72.6170608,Road Race,NEBRA
+40656,7756,The CCAP Tuesday Night Criterium Series p/b CT's Top Eye & Ear Doctors,2019-07-30 0:00:00,2019-07-30 0:00:00,615 Silver Ln,East Hartford,CT,USA,41.7633533,-72.6170608,Road Race,NEBRA
+40657,7756,The CCAP Tuesday Night Criterium Series FINALE p/b CT's Top Eye & Ear Doctors,2019-08-13 0:00:00,2019-08-13 0:00:00,615 Silver Ln,East Hartford,CT,USA,41.7633533,-72.6170608,Road Race,NEBRA
+40665,7756,CCAP School Short Track Series #4 at Ledyard,2019-05-22 0:00:00,2019-05-22 0:00:00,1860 CT-12,Ledyard,CT,USA,41.45277772,-72.06630993,Mountain Bike,NULL
+40685,7756,Team Red Dragon MTB p/b CCAP - Clif Bar Dirt Cup # 3 - cancelled,2019-05-05 0:00:00,2019-05-05 0:00:00,"685 Orchard Road, Kensington, CT",Berlin,CT,USA,41.59043184,-72.79254118,Mountain Bike,NEBRA
+40997,7756,8th Annual CCNS KERMIS p/b The CCAP,2019-06-14 0:00:00,2019-06-14 0:00:00,615 Silver Lane,East Hartford,CT,USA,41.7622195,-72.6171409,Road Race,NEBRA
+41002,7756,CCAP Youth Cyclocross Camp,2019-08-17 0:00:00,2019-08-18 0:00:00,74 Forest Lane,Glastonbury,CT,USA,41.6867639,-72.534846,Cycling Camp,Cyclocross
+41011,7756,CCAP School Short Track Series #1 at Moran,2019-04-24 0:00:00,2019-04-24 0:00:00,141 Hope Hill Rd,Wallingford,CT,USA,41.48480639,-72.83079316,Mountain Bike,NULL
+41015,7756,The CCAP Breakaway Benefit Ride,2019-05-11 0:00:00,2019-05-11 0:00:00,60 Villa Louisa Rd,Bolton,CT,USA,41.7412183,-72.4621189,Recreational,Road Race
+41016,7756,CCAP Oyster Cross Training Series - CANCELED,2019-08-27 0:00:00,2019-08-27 0:00:00,77 N Water St,Norwalk,CT,USA,41.1037057,-73.4171463,Cyclocross,NEBRA
+41017,7756,CCAP Oyster Cross Training Series,2019-09-03 0:00:00,2019-09-03 0:00:00,77 N Water St,Norwalk,CT,USA,41.1037057,-73.4171463,Cyclocross,NEBRA
+41018,7756,CCAP Oyster Cross Training Series,2019-09-10 0:00:00,2019-09-10 0:00:00,77 N Water St,Norwalk,CT,USA,41.1037057,-73.4171463,Cyclocross,NEBRA
+41019,7756,CCAP Oyster Cross Training Series,2019-09-17 0:00:00,2019-09-17 0:00:00,77 N Water St,Norwalk,CT,USA,41.1037057,-73.4171463,Cyclocross,NEBRA
+41020,7756,CCAP Rocky Hill Cyclocross Series - CANCELED,2019-08-28 0:00:00,2019-08-28 0:00:00,340 Elm St.,Rocky Hill,CT,USA,41.66160668,-72.65200384,Cyclocross,NEBRA
+41021,7756,CCAP Rocky Hill Cyclocross Series,2019-09-04 0:00:00,2019-09-04 0:00:00,340 Elm St.,Rocky Hill,CT,USA,41.66160668,-72.65200384,Cyclocross,NEBRA
+41022,7756,CCAP Rocky Hill Cyclocross Series,2019-09-11 0:00:00,2019-09-11 0:00:00,340 Elm St.,Rocky Hill,CT,USA,41.66160668,-72.65200384,Cyclocross,NEBRA
+41023,7756,CCAP Rocky Hill Cyclocross Series,2019-09-18 0:00:00,2019-09-18 0:00:00,340 Elm St.,Rocky Hill,CT,USA,41.66160668,-72.65200384,Cyclocross,NEBRA
+41210,3634,JAM Fund Grand Fundo 10th Edition With New Adventure Options,2019-07-13 0:00:00,2019-07-13 0:00:00,155 Glendale Road,Southampton,MA,USA,42.271164,-72.717111,Gravel,Gran Fondo
+41984,7756,ConnectiCare Gran Fondo,2019-09-14 0:00:00,2019-09-14 0:00:00,1288 Boston Post Rd,Madison,CT,USA,41.2697656,-72.5590716,Gran Fondo,NEBRA
+41986,7756,The New Haven Grand Prix,2019-09-13 0:00:00,2019-09-13 0:00:00,1000 Chapel St,New Haven,CT,USA,41.30728457,-72.92868258,Road Race,NEBRA
+42123,7756,Center Subaru Tokeneke Classic Road Race 2019,2019-08-11 0:00:00,2019-08-11 0:00:00,93 Hartland Blvd,Hartland,CT,USA,41.9986008,-72.9051569,Road Race,NEBRA
+42262,7756,CCAP Summer 2019 Road Teams,2019-06-08 0:00:00,2019-09-13 0:00:00,353 Main St,Connecticut,CT,USA,41.5965955,-72.6458889,Club Membership,NEBRA
+43605,3634,Northeast Solar Montague Training Crit Series,2019-07-31 0:00:00,2019-07-31 0:00:00,"Industrial Blvd. in Montague, MA",Montague,MA,USA,42.5967532,-72.5250117,Road Race,NEBRA
+43606,3634,Northeast Solar Montague Training Crit Series,2019-08-07 0:00:00,2019-08-07 0:00:00,"Industrial Blvd. in Montague, MA",Montague,MA,USA,42.5967532,-72.5250117,Road Race,NEBRA
+43607,3634,Northeast Solar Montague Training Crit Series,2019-08-14 0:00:00,2019-08-14 0:00:00,"Industrial Blvd. in Montague, MA",Montague,MA,USA,42.5967532,-72.5250117,Road Race,NEBRA
+43608,3634,Northeast Solar Montague Training Crit Series,2019-08-21 0:00:00,2019-08-21 0:00:00,"Industrial Blvd. in Montague, MA",Montague,MA,USA,42.5967532,-72.5250117,Road Race,NEBRA
+46889,3634,JAM Fund Grand Fundo 11th Edition Cancelled for 2020,2020-07-11 0:00:00,2020-07-11 0:00:00,155 Glendale Road,Southampton,MA,USA,42.271164,-72.717111,Gravel,Gran Fondo
+54605,3634,JAM Fund Grand Fundo 11th Edition at the Cummington Fairgrounds,2022-07-23 0:00:00,2022-07-23 0:00:00,97 Fairgrounds Rd,Cummington,MA,USA,42.4433927,-72.8927847,Gravel,Gran Fondo
+59681,3634,JAM Fund Grand Fundo at the Cummington Fairgrounds,2023-07-23 0:00:00,2023-07-23 0:00:00,97 Fairgrounds Rd,Cummington,MA,USA,42.4433927,-72.8927847,Gravel,Gravel
+62772,3634,Westhampton Fall Festival Gravel Race,2023-10-15 0:00:00,2023-10-15 0:00:00,1 S Rd,Westhampton,MA,USA,42.3044165,-72.775702,Gravel,NULL
+64292,3634,JAM Fund Grand Fundo at the Cummington Fairgrounds,2024-07-14 0:00:00,2024-07-14 0:00:00,97 Fairgrounds Rd,Cummington,MA,USA,42.4433927,-72.8927847,Gravel,Gravel
+69189,3634,JAM Fund Grand Fundo at the Cummington Fairgrounds,2025-07-12 0:00:00,2025-07-13 0:00:00,97 Fairgrounds Rd,Cummington,MA,USA,42.4433927,-72.8927847,Gravel,Gravel
+43551,7756,CCAP Fall 2019 CX Teams,2019-08-31 0:00:00,2019-12-30 0:00:00,353 Main St,Connecticut,CT,USA,41.5965955,-72.6458889,Club Membership,NEBRA
+43910,7756,CCAP Oyster Cross Training Series FINALE,2019-09-24 0:00:00,2019-09-24 0:00:00,77 N Water St,Norwalk,CT,USA,41.1037057,-73.4171463,Cyclocross,NEBRA
+43911,7756,CCAP Rocky Hill Cyclocross Series  FINALE,2019-09-25 0:00:00,2019-09-25 0:00:00,340 Elm St.,Rocky Hill,CT,USA,41.66160668,-72.65200384,Cyclocross,NEBRA
+44161,7756,Newtown Cyclocross p/b the CCAP and Team 26,2019-09-22 0:00:00,2019-09-22 0:00:00,"4 Wildlife Dr Newtown, CT 06470",Newtown,CT,USA,41.405166,-73.2857648,Cyclocross,CT Cross Series
+44559,7756,CCAP Spring 2020 MTB Teams,2020-03-22 0:00:00,2020-06-28 0:00:00,353 Main St,Connecticut,CT,USA,41.5965955,-72.6458889,Club Membership,NEBRA
+44566,7756,CCAP School CX Series #3 - Edgewood Park,2019-10-23 0:00:00,2019-10-23 0:00:00,540 Edgewood Ave,New Haven,CT,USA,41.31554332,-72.95354804,Cyclocross,NULL
+44738,7756,CCAP School CX Series #2 - Ledyard Middle School,2019-10-16 0:00:00,2019-10-16 0:00:00,1860 CT-12,Gales Ferry,CT,USA,41.4505654,-72.073102,Cyclocross,NULL
+44739,7756,CCAP School CX Series #4 - Independent Day School,2019-10-30 0:00:00,2019-10-30 0:00:00,115 Laurel Brook Rd,Middlefield,CT,USA,41.5084347,-72.6878328,Cyclocross,NULL
+44801,7756,CCAP CTCX Youth Cyclocross Camp,2020-08-01 0:00:00,2020-08-02 0:00:00,74 Forest Lane,Glastonbury,CT,USA,41.6867639,-72.534846,Cycling Camp,Cyclocross
+45367,7756,The CCAP Breakaway Benefit Challenge,2020-05-27 0:00:00,2020-05-31 0:00:00,353 Main St,Middletown,CT,USA,41.5610795,-72.6504669,Virtual,Recreational
+45478,7756,CCAP Winter Swap Meet & Tag Sale,2020-02-22 0:00:00,2020-02-22 0:00:00,83 South St,West Hartford,CT,USA,41.7270537,-72.7248648,Special Event,NEBRA
+45742,7756,9th Annual CCNS KERMIS p/b The CCAP - (CANCELED),2020-06-27 0:00:00,2020-06-27 0:00:00,615 Silver Lane,East Hartford,CT,USA,41.7622195,-72.6171409,Road Race,NEBRA
+46053,7756,Team Red Dragon MTB p/b CCAP - CLIF Dirt Cup # 3 (CANCELED),2020-05-09 0:00:00,2020-05-09 0:00:00,"685 Orchard Road, Kensington, CT",Berlin,CT,USA,41.59043184,-72.79254118,Mountain Bike,NEBRA
+46261,7756,The CCAP Tuesday Night Criterium Series (CANCELED),2020-05-12 0:00:00,2020-05-12 0:00:00,615 Silver Ln,East Hartford,CT,USA,41.7633533,-72.6170608,Road Race,NEBRA
+46321,7756,CCAP Junior Summer Mountain Bike Camp - CANCELED,2020-07-05 0:00:00,2020-07-11 0:00:00,University of Connecticut,Mansfield,CT,USA,41.8104735,-72.2941114,Cycling Camp,Mountain Bike
+46363,7756,Newtown Cyclocross p/b the CCAP,2020-09-27 0:00:00,2020-09-27 0:00:00,"4 Wildlife Dr Newtown, CT 06470",Newtown,CT,USA,41.405166,-73.2857648,Cyclocross,NEBRA
+46371,7756,CCAP Junior Summer Road Camp - (CANCELED),2020-07-25 0:00:00,2020-07-25 0:00:00,1151 Mosser Rd,Breinigsville,PA,USA,40.5475293,-75.6104427,Cycling Camp,Road Race
+46569,7756,The CCAP Tuesday Night Criterium Series (CANCELED),2020-05-19 0:00:00,2020-05-19 0:00:00,615 Silver Ln,East Hartford,CT,USA,41.7633533,-72.6170608,Road Race,NEBRA
+46570,7756,The CCAP Tuesday Night Criterium Series (CANCELED),2020-05-26 0:00:00,2020-05-26 0:00:00,615 Silver Ln,East Hartford,CT,USA,41.7633533,-72.6170608,Road Race,NEBRA
+46571,7756,The CCAP Tuesday Night Criterium Series (CANCELED),2020-06-02 0:00:00,2020-06-02 0:00:00,615 Silver Ln,East Hartford,CT,USA,41.7633533,-72.6170608,Road Race,NEBRA
+46572,7756,The CCAP Tuesday Night Criterium Series (CANCELED),2020-06-09 0:00:00,2020-06-09 0:00:00,615 Silver Ln,East Hartford,CT,USA,41.7633533,-72.6170608,Road Race,NEBRA
+46574,7756,The CCAP Tuesday Night Criterium Series (CANCELED),2020-06-16 0:00:00,2020-06-16 0:00:00,615 Silver Ln,East Hartford,CT,USA,41.7633533,-72.6170608,Road Race,NEBRA
+46575,7756,The CCAP Tuesday Night Criterium Series (CANCELED),2020-06-23 0:00:00,2020-06-23 0:00:00,615 Silver Ln,East Hartford,CT,USA,41.7633533,-72.6170608,Road Race,NEBRA
+46576,7756,The CCAP Tuesday Night Criterium Series (CANCELED),2020-06-30 0:00:00,2020-06-30 0:00:00,615 Silver Ln,East Hartford,CT,USA,41.7633533,-72.6170608,Road Race,NEBRA
+46577,7756,The CCAP Tuesday Night Criterium Series - (CANCELED),2020-07-07 0:00:00,2020-07-07 0:00:00,615 Silver Ln,East Hartford,CT,USA,41.7633533,-72.6170608,Road Race,NEBRA
+46578,7756,The CCAP Tuesday Night Criterium Series,2020-07-28 0:00:00,2020-07-28 0:00:00,615 Silver Ln,East Hartford,CT,USA,41.7633533,-72.6170608,Road Race,NEBRA
+46579,7756,The CCAP Tuesday Night Criterium Series,2020-07-21 0:00:00,2020-07-21 0:00:00,615 Silver Ln,East Hartford,CT,USA,41.7633533,-72.6170608,Road Race,NEBRA
+46580,7756,The CCAP Tuesday Night Criterium Series,2020-08-11 0:00:00,2020-08-11 0:00:00,615 Silver Ln,East Hartford,CT,USA,41.7633533,-72.6170608,Road Race,NEBRA
+46581,7756,The CCAP Tuesday Night Criterium Series FINALE,2020-08-18 0:00:00,2020-08-18 0:00:00,615 Silver Ln,East Hartford,CT,USA,41.7633533,-72.6170608,Road Race,NEBRA
+47080,7756,CCAP School Short Track Series #1 at Moran (CANCELED),2020-04-22 0:00:00,2020-04-22 0:00:00,141 Hope Hill Rd,Wallingford,CT,USA,41.48480639,-72.83079316,Mountain Bike,NULL
+47081,7756,CCAP School Short Track Series #2 at Ledyard (CANCELED),2020-04-29 0:00:00,2020-04-29 0:00:00,1860 CT-12,Ledyard,CT,USA,41.45277772,-72.06630993,Mountain Bike,NULL
+47083,7756,CCAP School Short Track Series #4 at East Hampton Middle School (CANCELED),2020-05-21 0:00:00,2020-05-21 0:00:00,19 Childs Rd,East Hampton,CT,USA,41.5692335,-72.5229987,Mountain Bike,NULL
+47187,7756,CCAP Spring 2020 Notre Dame High School MTB Team,2020-04-01 0:00:00,2020-06-30 0:00:00,353 Main St,Connecticut,CT,USA,41.5965955,-72.6458889,Club Membership,NEBRA
+47209,7756,CCAP Spring 2020 Moran Middle School Bike Club,2020-05-04 0:00:00,2020-06-30 0:00:00,353 Main St,Connecticut,CT,USA,41.5965955,-72.6458889,Club Membership,NEBRA
+47225,7756,canceled - The New Haven Grand Prix,2020-09-25 0:00:00,2020-09-25 0:00:00,1000 Chapel St,New Haven,CT,USA,41.30728457,-72.92868258,Road Race,NEBRA
+47241,7756,TEMPLATE - The CCAP Breakaway Benefit Ride,2020-04-18 0:00:00,2020-04-18 0:00:00,83 Upper Pattagansett Rd,Middletown,CT,USA,41.3768672,-72.2238179,Recreational,Road Race
+47296,7756,2020 ConnectiCare VIRTUAL Gran Fondo,2020-09-04 0:00:00,2020-09-30 0:00:00,353 Main St,Middletown,CT,USA,41.5610795,-72.6504669,Gran Fondo,Virtual
+47348,7756,The Virtual CCAP Tuesday Night Criterium,2020-05-19 0:00:00,2020-05-19 0:00:00,353 Main St,Middletown,CT,USA,41.5610795,-72.6504669,Virtual,Road Race
+47365,7756,The Virtual CCAP Tuesday Night Criterium,2020-05-26 0:00:00,2020-05-26 0:00:00,353 Main St,Middletown,CT,USA,41.5610795,-72.6504669,Virtual,Road Race
+47394,7756,The Virtual CCAP Tuesday Night Criterium,2020-06-02 0:00:00,2020-06-02 0:00:00,353 Main St,Middletown,CT,USA,41.5610795,-72.6504669,Virtual,Road Race
+47396,7756,The Virtual CCAP Tuesday Night Criterium,2020-06-09 0:00:00,2020-06-09 0:00:00,353 Main St,Middletown,CT,USA,41.5610795,-72.6504669,Virtual,Road Race
+47397,7756,The Virtual CCAP Tuesday Night Criterium,2020-06-16 0:00:00,2020-06-16 0:00:00,353 Main St,Middletown,CT,USA,41.5610795,-72.6504669,Virtual,Road Race
+47398,7756,The Virtual CCAP Tuesday Night Criterium,2020-06-23 0:00:00,2020-06-23 0:00:00,353 Main St,Middletown,CT,USA,41.5610795,-72.6504669,Virtual,Road Race
+47399,7756,The Virtual CCAP Tuesday Night Criterium,2020-06-30 0:00:00,2020-06-30 0:00:00,353 Main St,Middletown,CT,USA,41.5610795,-72.6504669,Virtual,Road Race
+47509,7756,CCAP MTB Extended Session Summer 2020  - Fairfield County Youth Cycling Team,2020-06-22 0:00:00,2020-08-22 0:00:00,353 Main St,Middletown,CT,USA,41.5610795,-72.6504669,Club Membership,NEBRA
+47517,7756,CCAP MTB Extended Session Summer 2020  - Petal Power,2020-06-22 0:00:00,2020-08-22 0:00:00,353 Main St,Middletown,CT,USA,41.5610795,-72.6504669,Club Membership,NEBRA
+47663,7756,CCAP Hamden Cheshire Railtrailers Summer 2020 Road Session,2020-07-01 0:00:00,2020-09-30 0:00:00,353 Main St,Middletown,CT,USA,41.5610795,-72.6504669,Club Membership,NEBRA
+47671,7756,CCAP West Hartford ERRACERS Junior Team Summer 2020 Road Session,2020-07-01 0:00:00,2020-09-30 0:00:00,353 Main St,Middletown,CT,USA,41.5610795,-72.6504669,Club Membership,NEBRA
+47699,7756,CCAP MTB Extended Session Summer 2020  - RTX MTB Team,2020-07-04 0:00:00,2020-08-23 0:00:00,353 Main St,Middletown,CT,USA,41.5610795,-72.6504669,Club Membership,NEBRA
+47709,7756,CCAP Farmington Valley Youth Cycling Team Summer 2020 Road Session,2020-07-05 0:00:00,2020-09-30 0:00:00,353 Main St,Middletown,CT,USA,41.5610795,-72.6504669,Club Membership,NEBRA
+47745,7756,CCAP MTB Extended Session Summer 2020  - Central Wheelers,2020-07-12 0:00:00,2020-09-30 0:00:00,353 Main St,Middletown,CT,USA,41.5610795,-72.6504669,Club Membership,NEBRA
+47750,7756,CCAP MTB Extended Session Summer 2020 - Farmington Valley Youth Cycling Team,2020-07-15 0:00:00,2020-09-30 0:00:00,353 Main St,Middletown,CT,USA,41.5610795,-72.6504669,Club Membership,NEBRA
+47804,7756,CCAP Seawolves Regional Junior Team Summer 2020 Road Session,2020-07-24 0:00:00,2020-09-30 0:00:00,353 Main St,Middletown,CT,USA,41.5610795,-72.6504669,Club Membership,NEBRA
+47870,7756,CCAP Junior Travel Team - Gravity,2020-08-05 0:00:00,2020-11-29 0:00:00,353 Main St,Middletown,CT,USA,41.5610795,-72.6504669,Club Membership,NEBRA
+48004,7756,CCAP Rocky Hill Cyclocross Series,2020-09-09 0:00:00,2020-09-09 0:00:00,340 Elm St.,Rocky Hill,CT,USA,41.66160668,-72.65200384,Cyclocross,NEBRA
+48015,7756,CCAP Rocky Hill Cyclocross Series,2020-09-16 0:00:00,2020-09-16 0:00:00,340 Elm St.,Rocky Hill,CT,USA,41.66160668,-72.65200384,Cyclocross,NEBRA
+48016,7756,CCAP Rocky Hill Cyclocross Series,2020-09-23 0:00:00,2020-09-23 0:00:00,340 Elm St.,Rocky Hill,CT,USA,41.66160668,-72.65200384,Cyclocross,NEBRA
+48017,7756,CCAP Rocky Hill Cyclocross Series FINALE,2020-09-30 0:00:00,2020-09-30 0:00:00,340 Elm St.,Rocky Hill,CT,USA,41.66160668,-72.65200384,Cyclocross,NEBRA
+48052,7756,CCAP Fall 2020 Cyclocross Teams,2020-09-08 0:00:00,2020-12-06 0:00:00,353 Main St,Middletown,CT,USA,41.5610795,-72.6504669,Club Membership,NEBRA
+48106,7756,CCAP Fall 2020 MTB Teams,2020-09-06 0:00:00,2020-12-06 0:00:00,353 Main St,Middletown,CT,USA,41.5610795,-72.6504669,Club Membership,NEBRA
+48121,7756,CCAP Indoor Winter Youth Cycling Season (Virtual),2020-11-15 0:00:00,2021-02-28 0:00:00,,Middletown,CT,USA,41.55599976,-72.67137909,Virtual,NULL
+48286,7756,Mystic CX - Week #1,2020-10-24 0:00:00,2020-10-24 0:00:00,98 Church Street,Mystic,CT,USA,41.3542829,-71.9590149,Cyclocross,NEBRA
+48289,7756,Mystic CX - Week #2 (Spooky Town),2020-10-31 0:00:00,2020-10-31 0:00:00,98 Church Street,Mystic,CT,USA,41.3542829,-71.9590149,Cyclocross,NEBRA
+49045,7756,CCAP Spring 2021 MTB Coaches Registration,2021-03-22 0:00:00,2021-06-30 0:00:00,353 Main St,Middletown,CT,USA,41.5610795,-72.6504669,Club Membership,NEBRA
+49079,7756,The CCAP Breakaway Benefit Ride,2021-05-01 0:00:00,2021-05-01 0:00:00,"50 Winding Trails Drive, Farmington, CT 06032",Farmington,CT,USA,41.7405798,-72.8424715,Recreational,Gran Fondo
+49182,7756,CCAP Spring 2021 MTB Teams,2021-03-29 0:00:00,2021-06-27 0:00:00,353 Main St,Middletown,CT,USA,41.5610795,-72.6504669,Club Membership,NEBRA
+49275,7756,The New Haven Grand Prix - Canceled,2021-10-01 0:00:00,2021-10-01 0:00:00,1000 Chapel St,New Haven,CT,USA,41.30728457,-72.92868258,Road Race,NEBRA
+49278,7756,ConnectiCare Gran Fondo,2021-10-02 0:00:00,2021-10-02 0:00:00,1288 Boston Post Rd,Madison,CT,USA,41.2697656,-72.5590716,Gran Fondo,NEBRA
+49336,7756,Bush Hill MTB,2021-05-15 0:00:00,2021-05-15 0:00:00,330 Bush Hill Rd,Manchester,CT,USA,41.739655,-72.5554663,Mountain Bike,NEBRA
+49515,7756,9th Annual CCNS KERMIS p/b The CCAP,2021-06-19 0:00:00,2021-06-19 0:00:00,615 Silver Lane,East Hartford,CT,USA,41.7622195,-72.6171409,Road Race,NEBRA
+49579,7756,CCAP 2021 TTEndurance Junior Team,2021-03-29 0:00:00,2021-10-31 0:00:00,353 Main St,Middletown,CT,USA,41.5610795,-72.6504669,Club Membership,NEBRA
+49908,7756,The CCAP Tuesday Night Criterium Series,2021-05-18 0:00:00,2021-05-18 0:00:00,615 Silver Ln,East Hartford,CT,USA,41.7633533,-72.6170608,Road Race,NEBRA
+49972,7756,Team Red Dragon MTB p/b CCAP,2021-06-06 0:00:00,2021-06-06 0:00:00,685 Orchard Rd,Berlin,CT,USA,41.592223,-72.793576,Mountain Bike,NEBRA
+50003,7756,The CCAP Tuesday Night Criterium Series,2021-06-01 0:00:00,2021-06-01 0:00:00,615 Silver Ln,East Hartford,CT,USA,41.7633533,-72.6170608,Road Race,NEBRA
+50005,7756,The CCAP Tuesday Night Criterium Series,2021-06-08 0:00:00,2021-06-08 0:00:00,615 Silver Ln,East Hartford,CT,USA,41.7633533,-72.6170608,Road Race,NEBRA
+50008,7756,The CCAP Tuesday Night Criterium Series,2021-06-15 0:00:00,2021-06-15 0:00:00,615 Silver Ln,East Hartford,CT,USA,41.7633533,-72.6170608,Road Race,NEBRA
+50010,7756,The CCAP Tuesday Night Criterium Series,2021-06-22 0:00:00,2021-06-22 0:00:00,615 Silver Ln,East Hartford,CT,USA,41.7633533,-72.6170608,Road Race,NEBRA
+50011,7756,The CCAP Tuesday Night Criterium Series - Women's Night,2021-06-29 0:00:00,2021-06-29 0:00:00,615 Silver Ln,East Hartford,CT,USA,41.7633533,-72.6170608,Road Race,NEBRA
+50012,7756,The CCAP Tuesday Night Criterium Series - Junior Race Night,2021-07-06 0:00:00,2021-07-06 0:00:00,615 Silver Ln,East Hartford,CT,USA,41.7633533,-72.6170608,Road Race,NEBRA
+50014,7756,The CCAP Tuesday Night Criterium Series - Junior Race Night,2021-07-20 0:00:00,2021-07-20 0:00:00,615 Silver Ln,East Hartford,CT,USA,41.7633533,-72.6170608,Road Race,NEBRA
+50015,7756,The CCAP Tuesday Night Criterium Series - Women's Night,2021-07-27 0:00:00,2021-07-27 0:00:00,615 Silver Ln,East Hartford,CT,USA,41.7633533,-72.6170608,Road Race,NEBRA
+50018,7756,The CCAP Tuesday Night Criterium Series,2021-08-03 0:00:00,2021-08-03 0:00:00,615 Silver Ln,East Hartford,CT,USA,41.7633533,-72.6170608,Road Race,NEBRA
+50019,7756,The CCAP Tuesday Night Criterium Series,2021-08-10 0:00:00,2021-08-10 0:00:00,615 Silver Ln,East Hartford,CT,USA,41.7633533,-72.6170608,Road Race,NEBRA
+50020,7756,The CCAP Tuesday Night Criterium Series FINALE - Junior Race Night,2021-08-17 0:00:00,2021-08-17 0:00:00,615 Silver Ln,East Hartford,CT,USA,41.7633533,-72.6170608,Road Race,NEBRA
+50092,7756,CCAP Summer 2021 Junior Road Teams,2021-05-01 0:00:00,2021-10-01 0:00:00,353 Main St,Middletown,CT,USA,41.5610795,-72.6504669,Club Membership,NEBRA
+50640,7756,CCAP Spring 2021 School MTB Clubs,2021-05-08 0:00:00,2021-06-13 0:00:00,353 Main St,Middletown,CT,USA,41.5610795,-72.6504669,Club Membership,NEBRA
+50728,7756,CCAP 2021 Nutmeg Youth Triathlon Team,2021-05-14 0:00:00,2021-07-31 0:00:00,353 Main St,Middletown,CT,USA,41.5610795,-72.6504669,Club Membership,NEBRA
+50816,7756,West Rock Pseudo Prestige MTB p/b CCAP,2021-06-13 0:00:00,2021-06-13 0:00:00,1110 Wintergreen Ave,New Haven,CT,USA,41.3457559,-72.9667715,Mountain Bike,NEBRA
+51361,7756,CCAP Indoor Winter Youth Cycling Season (Virtual),2022-01-03 0:00:00,2022-03-11 0:00:00,,Middletown,CT,USA,41.55599976,-72.67137909,Virtual,NULL
+51365,7756,HOLD - Newtown Cyclocross p/b the CCAP and Team 26 - Discard,2021-09-19 0:00:00,2021-09-19 0:00:00,"4 Wildlife Dr Newtown, CT 06470",Newtown,CT,USA,41.405166,-73.2857648,Cyclocross,CT Cross Series
+51368,7756,CCAP Youth Cyclocross Camp,2021-08-21 0:00:00,2021-08-22 0:00:00,74 Forest Lane,Glastonbury,CT,USA,41.6867639,-72.534846,Cycling Camp,Cyclocross
+51409,7756,CCAP Fall 2021 MTB Teams,2021-09-03 0:00:00,2021-12-05 0:00:00,353 Main St,Middletown,CT,USA,41.5610795,-72.6504669,Club Membership,NEBRA
+51410,7756,CCAP Fall 2021 Cyclocross Teams,2021-08-27 0:00:00,2021-12-12 0:00:00,353 Main St,Middletown,CT,USA,41.5610795,-72.6504669,Club Membership,NEBRA
+51623,7756,Newtown Cyclocross p/b the CCAP and Team 26,2021-09-19 0:00:00,2021-09-19 0:00:00,"4 Wildlife Dr Newtown, CT 06470",Newtown,CT,USA,41.405166,-73.2857648,Cyclocross,NEBRA
+51680,7756,CCAP Rocky Hill Cyclocross Series - Week #1,2021-09-01 0:00:00,2021-09-01 0:00:00,340 Elm St.,Rocky Hill,CT,USA,41.66160668,-72.65200384,Cyclocross,NEBRA
+51683,7756,CCAP Rocky Hill Cyclocross Series - Week #2,2021-09-08 0:00:00,2021-09-08 0:00:00,340 Elm St.,Rocky Hill,CT,USA,41.66160668,-72.65200384,Cyclocross,NEBRA
+51684,7756,CCAP Rocky Hill Cyclocross Series - Week #3,2021-09-15 0:00:00,2021-09-15 0:00:00,340 Elm St.,Rocky Hill,CT,USA,41.66160668,-72.65200384,Cyclocross,NEBRA
+51685,7756,CCAP Rocky Hill Cyclocross Series FINALE - Week #4,2021-09-22 0:00:00,2021-09-22 0:00:00,340 Elm St.,Rocky Hill,CT,USA,41.66160668,-72.65200384,Cyclocross,NEBRA
+52176,7756,CCAP Fairfield County Youth Cycling Team Fall 2021 MTB,2021-09-12 0:00:00,2021-10-31 0:00:00,,Stamford,CT,USA,41.0529585,-73.5387991,Club Membership,NEBRA
+52382,7756,CCAP Ledyard Middle School Cycling Club - Fall 2021,2021-09-13 0:00:00,2021-11-24 0:00:00,1860 CT-12,Ledyard,CT,USA,41.4505654,-72.073102,Club Membership,NEBRA
+52515,7756,CCAP James Moran MS Bike Club - Fall 2021,2021-09-29 0:00:00,2021-11-24 0:00:00,141 Hope Hill Rd,Wallingford,CT,USA,41.4848293,-72.8310815,Club Membership,NEBRA
+52518,7756,CCAP Kennedy Eagles Cycling Club - Fall 2021,2021-09-29 0:00:00,2021-11-24 0:00:00,1071 S Main Street,Plantsville,CT,USA,41.5779235,-72.8937512,Club Membership,NEBRA
+52521,7756,CCAP Fall School MTB Series #1 - Ledyard,2021-10-14 0:00:00,2021-10-14 0:00:00,1860 CT-12,Gales Ferry,CT,USA,41.4505654,-72.073102,Mountain Bike,NULL
+52557,7756,CCAP Fall School MTB Series #2 - Rocky Hill,2021-11-03 0:00:00,2021-11-03 0:00:00,340 Elm St,Rocky Hill,CT,USA,41.6630015,-72.6513435,Mountain Bike,NULL
+52604,7756,ConnectiCare Gran Fondo,2022-09-17 0:00:00,2022-09-17 0:00:00,1288 Boston Post Rd,Madison,CT,USA,41.2697656,-72.5590716,Gran Fondo,NEBRA
+53191,7756,CCAP Spring 2022 MTB Teams,2022-03-28 0:00:00,2022-06-19 0:00:00,353 Main St,Middletown,CT,USA,41.5610795,-72.6504669,Club Membership,NEBRA
+54032,7756,The Breakaway Benefit Cycling Festival p/b The CCAP,2022-05-07 0:00:00,2022-05-07 0:00:00,"50 Winding Trails Drive, Farmington, CT 06032",Farmington,CT,USA,41.7405798,-72.8424715,Recreational,Gran Fondo
+54305,7756,The CCAP TNC Series,2022-06-02 0:00:00,2022-06-02 0:00:00,615 Silver Ln,East Hartford,CT,USA,41.7633533,-72.6170608,Road Race,NEBRA
+54439,7756,Team Red Dragon MTB p/b CCAP - CT Dirt Cup #4,2022-06-05 0:00:00,2022-06-05 0:00:00,654 Orchard Rd,Berlin,CT,USA,41.5898634,-72.7935,Mountain Bike,NEBRA
+54469,7756,The CT Dirt Cup Series Registration,2022-04-10 0:00:00,2022-06-12 0:00:00,,Middletown,CT,USA,41.5460323,-72.6505957,Mountain Bike,NULL
+54793,7756,West Rock Pseudo Prestige MTB p/b CCAP,2022-06-18 0:00:00,2022-06-18 0:00:00,1110 Wintergreen Ave,New Haven,CT,USA,41.3457559,-72.9667715,Mountain Bike,NEBRA
+54824,7756,CCAP Spring School MTB Series #1 - Ledyard,2022-04-27 0:00:00,2022-04-27 0:00:00,1860 CT-12,Gales Ferry,CT,USA,41.4505654,-72.073102,Mountain Bike,NULL
+54841,7756,CCAP Spring School MTB Series #2 - Moran,2022-05-18 0:00:00,2022-05-18 0:00:00,141 Hope Hill Road,Wallingford,CT,USA,41.4843558,-72.8306161,Mountain Bike,NULL
+54843,7756,CCAP Spring School MTB Series #3 - West Rock,2022-05-25 0:00:00,2022-05-25 0:00:00,1080 Wintergreen Ave,Hamden,CT,USA,41.3476569,-72.9663794,Mountain Bike,NULL
+55072,7756,10th Annual CCNS KERMIS p/b ConnecitCare and The CCAP,2022-07-15 0:00:00,2022-07-15 0:00:00,615 Silver Lane,East Hartford,CT,USA,41.7622195,-72.6171409,Road Race,NEBRA
+55201,7756,CCAP Spring 2022 School MTB Clubs,2022-04-01 0:00:00,2022-07-01 0:00:00,353 Main St,Middletown,CT,USA,41.5610795,-72.6504669,Club Membership,NEBRA
+55225,7756,CCAP Summer Mountain Bike Camp,2022-07-20 0:00:00,2022-07-24 0:00:00,40 Bulls Bridge Rd,Kent,CT,USA,41.6761997,-73.4797535,Cycling Camp,Mountain Bike
+55233,7756,CCAP Summer Road Camp,2022-07-06 0:00:00,2022-07-10 0:00:00,40 Bulls Bridge Rd,Kent,CT,USA,41.6761997,-73.4797535,Cycling Camp,Road Race
+55241,7756,The CCAP TNC Series,2022-06-07 0:00:00,2022-06-07 0:00:00,615 Silver Ln,East Hartford,CT,USA,41.7633533,-72.6170608,Road Race,NEBRA
+55246,7756,The CCAP TNC Series - Junior Race Night,2022-06-14 0:00:00,2022-06-14 0:00:00,615 Silver Ln,East Hartford,CT,USA,41.7633533,-72.6170608,Road Race,NEBRA
+55248,7756,The CCAP TNC Series,2022-06-28 0:00:00,2022-06-28 0:00:00,615 Silver Ln,East Hartford,CT,USA,41.7633533,-72.6170608,Road Race,NEBRA
+55249,7756,The CCAP TNC Series,2022-07-05 0:00:00,2022-07-05 0:00:00,615 Silver Ln,East Hartford,CT,USA,41.7633533,-72.6170608,Road Race,NEBRA
+55250,7756,The CCAP TNC Series,2022-07-19 0:00:00,2022-07-19 0:00:00,615 Silver Ln,East Hartford,CT,USA,41.7633533,-72.6170608,Road Race,NEBRA
+55251,7756,The CCAP TNC Series - Junior Race Night,2022-07-26 0:00:00,2022-07-26 0:00:00,615 Silver Ln,East Hartford,CT,USA,41.7633533,-72.6170608,Road Race,NEBRA
+55252,7756,The CCAP TNC Series,2022-08-04 0:00:00,2022-08-04 0:00:00,615 Silver Ln,East Hartford,CT,USA,41.7633533,-72.6170608,Road Race,NEBRA
+55253,7756,The CCAP TNC Series FINALE - World War Tuesday (Junior Race Night!),2022-08-16 0:00:00,2022-08-16 0:00:00,615 Silver Ln,East Hartford,CT,USA,41.7633533,-72.6170608,Road Race,NEBRA
+55254,7756,The CCAP TNC Series,2022-08-09 0:00:00,2022-08-09 0:00:00,615 Silver Ln,East Hartford,CT,USA,41.7633533,-72.6170608,Road Race,NEBRA
+55406,7756,Newtown Cyclocross p/b the CCAP and Team 26,2022-09-25 0:00:00,2022-09-25 0:00:00,"4 Wildlife Dr Newtown, CT 06470",Newtown,CT,USA,41.405166,-73.2857648,Cyclocross,NEBRA
+55653,7756,CCAP Summer 2022 Junior Road Teams,2022-05-01 0:00:00,2022-08-01 0:00:00,353 Main St,Middletown,CT,USA,41.5610795,-72.6504669,Club Membership,NEBRA
+56457,7756,CCAP Youth Cyclocross Camp,2022-08-20 0:00:00,2022-08-21 0:00:00,1080 Wintergreen Ave,Hamden,CT,USA,41.3476569,-72.9663794,Cycling Camp,Cyclocross
+56804,7756,The New Haven Grand Prix,2022-09-16 0:00:00,2022-09-16 0:00:00,1000 Chapel St,New Haven,CT,USA,41.30728457,-72.92868258,Road Race,NEBRA
+56808,7756,CCAP Rocky Hill Cyclocross Series - Week #1,2022-08-31 0:00:00,2022-08-31 0:00:00,340 Elm St.,Rocky Hill,CT,USA,41.66160668,-72.65200384,Cyclocross,NEBRA
+56813,7756,CCAP Rocky Hill Cyclocross Series - Week #2,2022-09-07 0:00:00,2022-09-07 0:00:00,340 Elm St.,Rocky Hill,CT,USA,41.66160668,-72.65200384,Cyclocross,NEBRA
+56814,7756,CCAP Rocky Hill Cyclocross Series - Week #3,2022-09-21 0:00:00,2022-09-21 0:00:00,340 Elm St.,Rocky Hill,CT,USA,41.66160668,-72.65200384,Cyclocross,NEBRA
+56815,7756,CCAP Rocky Hill Cyclocross Series - Week #4,2022-09-28 0:00:00,2022-09-28 0:00:00,340 Elm St.,Rocky Hill,CT,USA,41.66160668,-72.65200384,Cyclocross,NEBRA
+57090,7756,CCAP Fall 2022 Cyclocross Teams,2022-09-01 0:00:00,2022-12-30 0:00:00,353 Main St,Middletown,CT,USA,41.5610795,-72.6504669,Club Membership,NEBRA
+57502,7756,CCAP Fall 2022 School MTB Clubs,2022-10-01 0:00:00,2022-12-30 0:00:00,353 Main St,Middletown,CT,USA,41.5610795,-72.6504669,Club Membership,NEBRA
+57561,7756,CCAP Fall 2022 MTB Teams,2022-10-01 0:00:00,2022-12-30 0:00:00,353 Main St,Middletown,CT,USA,41.5610795,-72.6504669,Club Membership,NEBRA
+57616,7756,CCAP Fall School MTB Series #1 - Moran,2022-10-06 0:00:00,2022-10-06 0:00:00,141 Hope Hill Road,Wallingford,CT,USA,41.4843558,-72.8306161,Mountain Bike,NULL
+57724,7756,CCAP Fall School MTB Series #2 - Ledyard,2022-10-27 0:00:00,2022-10-27 0:00:00,1860 CT-12,Gales Ferry,CT,USA,41.4505654,-72.073102,Mountain Bike,NULL
+57816,7756,CCAP 2023 Indoor Winter Youth Cycling Program (Virtual),2023-01-03 0:00:00,2023-03-12 0:00:00,,Middletown,CT,USA,41.55599976,-72.67137909,Virtual,NULL
+59059,7756,ConnectiCare Gran Fondo,2023-09-16 0:00:00,2023-09-16 0:00:00,1288 Boston Post Rd,Madison,CT,USA,41.2697656,-72.5590716,Gran Fondo,NEBRA
+59637,7756,CCAP Spring 2023 School MTB Clubs,2023-04-01 0:00:00,2023-06-01 0:00:00,353 Main St,Middletown,CT,USA,41.5610795,-72.6504669,Club Membership,NEBRA
+59683,7756,Team Red Dragon MTB p/b CCAP,2023-06-18 0:00:00,2023-06-18 0:00:00,654 Orchard Rd,Berlin,CT,USA,41.5898634,-72.7935,Mountain Bike,NEBRA
+59722,7756,CCAP Spring 2023 MTB Teams,2023-04-01 0:00:00,2023-06-30 0:00:00,353 Main St,Middletown,CT,USA,41.5610795,-72.6504669,Club Membership,NEBRA
+60041,7756,The Breakaway Benefit Cycling Festival p/b The CCAP,2023-06-03 0:00:00,2023-06-03 0:00:00,60 Villa Louisa Rd,Bolton,CT,USA,41.7411916,-72.462113,Recreational,Gran Fondo
+60060,7756,CCAP Summer Road Camp,2023-07-19 0:00:00,2023-07-23 0:00:00,40 Bulls Bridge Rd,Kent,CT,USA,41.6761997,-73.4797535,Cycling Camp,Road Race
+60061,7756,CCAP Summer Mountain Bike Camp,2023-07-19 0:00:00,2023-07-23 0:00:00,40 Bulls Bridge Rd,Kent,CT,USA,41.6761997,-73.4797535,Cycling Camp,Mountain Bike
+60068,7756,CCAP Spring School MTB 2023 Series #3 - Ledyard,2023-05-24 0:00:00,2023-05-24 0:00:00,1860 CT-12,Gales Ferry,CT,USA,41.4505654,-72.073102,Mountain Bike,NULL
+60069,7756,CCAP Spring School MTB Series #2 - E Hampton,2023-05-15 0:00:00,2023-05-15 0:00:00,19 Childs Rd,East Hampton,CT,USA,41.5692335,-72.5229987,Mountain Bike,NULL
+60087,7756,11th Annual CCNS KERMIS p/b ConnectiCare and The CCAP,2023-08-04 0:00:00,2023-08-04 0:00:00,615 Silver Lane,East Hartford,CT,USA,41.7622195,-72.6171409,Road Race,NEBRA
+60088,7756,The CCAP TNC Series #1,2023-05-30 0:00:00,2023-05-30 0:00:00,615 Silver Lane,East Hartford,CT,USA,41.7600257,-72.6184474,Road Race,NEBRA
+60089,7756,The CCAP TNC Series #2,2023-06-06 0:00:00,2023-06-06 0:00:00,615 Silver Lane,East Hartford,CT,USA,41.7600257,-72.6184474,Road Race,NEBRA
+60090,7756,The CCAP TNC Series #3 - Full Results/Junior Race Night,2023-06-22 0:00:00,2023-06-22 0:00:00,615 Silver Lane,East Hartford,CT,USA,41.7600257,-72.6184474,Road Race,NEBRA
+60091,7756,The CCAP TNC Series #4,2023-06-27 0:00:00,2023-06-27 0:00:00,615 Silver Lane,East Hartford,CT,USA,41.7600257,-72.6184474,Road Race,NEBRA
+60092,7756,The CCAP TNC Series #5 FINALE - Full Results/Junior Race Night!,2023-08-08 0:00:00,2023-08-08 0:00:00,615 Silver Lane,East Hartford,CT,USA,41.7600257,-72.6184474,Road Race,NEBRA
+60094,7756,CCAP Youth Cyclocross Camp - USAC Regional Development Camp,2023-08-19 0:00:00,2023-08-20 0:00:00,20 Leibert Rd,Hartford,CT,USA,41.7751668,-72.6653309,Cycling Camp,Cyclocross
+60095,7756,CCAP Rocky Hill Cyclocross Series #1,2023-08-30 0:00:00,2023-08-30 0:00:00,340 Elm St.,Rocky Hill,CT,USA,41.66160668,-72.65200384,Cyclocross,NEBRA
+60096,7756,CCAP Rocky Hill Cyclocross Series #2,2023-09-06 0:00:00,2023-09-06 0:00:00,340 Elm St.,Rocky Hill,CT,USA,41.66160668,-72.65200384,Cyclocross,NEBRA
+60097,7756,The New Haven Grand Prix,2023-09-15 0:00:00,2023-09-15 0:00:00,1000 Chapel St,New Haven,CT,USA,41.30728457,-72.92868258,Road Race,NEBRA
+60098,7756,CCAP Rocky Hill Cyclocross Series #3,2023-09-20 0:00:00,2023-09-20 0:00:00,340 Elm St.,Rocky Hill,CT,USA,41.66160668,-72.65200384,Cyclocross,NEBRA
+60099,7756,Newtown Cyclocross p/b the CCAP and Team 26,2023-10-01 0:00:00,2023-10-01 0:00:00,"4 Wildlife Dr Newtown, CT 06470",Newtown,CT,USA,41.405166,-73.2857648,Cyclocross,NEBRA
+60100,7756,CCAP Rocky Hill Cyclocross Series #4,2023-09-27 0:00:00,2023-09-27 0:00:00,340 Elm St.,Rocky Hill,CT,USA,41.66160668,-72.65200384,Cyclocross,NEBRA
+60499,7756,CCAP Spring School MTB 2023 Series #1 - Moran,2023-05-10 0:00:00,2023-05-10 0:00:00,141 Hope Hill Rd,Wallingford,CT,USA,41.4843647,-72.8306295,Mountain Bike,NULL
+61003,7756,2023 CCAP Junior Road Teams,2023-06-01 0:00:00,2023-08-31 0:00:00,353 Main St,Middletown,CT,USA,41.5610795,-72.6504669,Club Membership,NEBRA
+61646,7756,CCAP Fall 2023 Cyclocross Teams,2023-08-18 0:00:00,2023-12-31 0:00:00,353 Main St,Middletown,CT,USA,41.5610795,-72.6504669,Club Membership,Cyclocross
+61830,7756,CCAP Fall 2023 MTB Teams,2023-09-01 0:00:00,2023-11-30 0:00:00,353 Main St,Middletown,CT,USA,41.5610795,-72.6504669,Club Membership,NEBRA
+62827,7756,CCAP MTB School Club Ride- Bluff Point,2023-10-18 0:00:00,2023-10-18 0:00:00,55 Depot Rd,Groton,CT,USA,41.3418932,-72.0339183,Recreational,NULL
+62828,7756,CCAP MTB School Club Ride- Watrous Park,2023-11-01 0:00:00,2023-11-01 0:00:00,41 West St,Cromwell,CT,USA,41.5980904,-72.6522731,Recreational,NULL
+62942,7756,2024 CCAP Junior Road Teams,2024-01-01 0:00:00,2024-12-30 0:00:00,353 Main St,Middletown,CT,USA,41.5610795,-72.6504669,Club Membership,NEBRA
+63086,7756,CCAP Spring 2024 Regional MTB Teams,2024-04-01 0:00:00,2024-06-30 0:00:00,353 Main St,Middletown,CT,USA,41.5610795,-72.6504669,Club Membership,NEBRA
+63306,7756,CCAP Spring Short Track MTB Race,2024-05-01 0:00:00,2024-05-01 0:00:00,141 Hope Hill Rd,Wallingford,CT,USA,41.4843647,-72.8306295,Mountain Bike,NULL
+63379,7756,The CCAP's Breakaway Benefit Cycling Festival,2024-05-18 0:00:00,2024-05-18 0:00:00,60 Villa Louisa Rd,Bolton,CT,USA,41.7411916,-72.462113,Recreational,Gran Fondo
+63421,7756,CCAP Spring Short Track MTB Race,2024-05-22 0:00:00,2024-05-22 0:00:00,1860 CT-12,Ledyard,CT,USA,41.4505654,-72.073102,Mountain Bike,NULL
+63422,7756,CCAP Spring Short Track MTB Race,2024-05-29 0:00:00,2024-05-29 0:00:00,19 Childs Rd,East Hampton,CT,USA,41.5692335,-72.5229987,Mountain Bike,NULL
+63513,7756,CCAP TNC Series #1,2024-06-04 0:00:00,2024-06-04 0:00:00,615 Silver Lane,East Hartford,CT,USA,41.7600257,-72.6184474,Road Race,NEBRA
+63515,7756,CCAP TNC Series #2 Full Results/ Junior Race Night,2024-06-11 0:00:00,2024-06-11 0:00:00,615 Silver Lane,East Hartford,CT,USA,41.7600257,-72.6184474,Road Race,NEBRA
+63516,7756,CCAP TNC Series #4 - Full Results/ Junior Race Night,2024-07-02 0:00:00,2024-07-02 0:00:00,615 Silver Lane,East Hartford,CT,USA,41.7600257,-72.6184474,Road Race,NEBRA
+63517,7756,CCAP TNC Series #3,2024-06-25 0:00:00,2024-06-25 0:00:00,615 Silver Lane,East Hartford,CT,USA,41.7600257,-72.6184474,Road Race,NEBRA
+63519,7756,CCAP Summer Road Camp,2024-07-10 0:00:00,2024-07-14 0:00:00,2131 Hillside Road,Storrs,CT,USA,41.8076854,-72.2570522,Cycling Camp,Road Race
+63522,7756,CCAP Summer Mountain Bike Camp,2024-07-10 0:00:00,2024-07-14 0:00:00,2131 Hillside Road,Storrs,CT,USA,41.8076854,-72.2570522,Cycling Camp,Mountain Bike
+63523,7756,CCAP Rocky Hill Cyclocross Series #1,2024-08-28 0:00:00,2024-08-28 0:00:00,340 Elm St,Rocky Hill,CT,USA,41.6630015,-72.6513435,Cyclocross,NEBRA
+63525,7756,CCAP Rocky Hill Cyclocross Series #2,2024-09-04 0:00:00,2024-09-04 0:00:00,340 Elm St.,Rocky Hill,CT,USA,41.66160668,-72.65200384,Cyclocross,NEBRA
+63526,7756,CCAP Rocky Hill Cyclocross Series #3,2024-09-18 0:00:00,2024-09-18 0:00:00,340 Elm St.,Rocky Hill,CT,USA,41.66160668,-72.65200384,Cyclocross,NEBRA
+63527,7756,CCAP Rocky Hill Cyclocross Series #4,2024-09-25 0:00:00,2024-09-25 0:00:00,340 Elm St.,Rocky Hill,CT,USA,41.66160668,-72.65200384,Cyclocross,NEBRA
+63764,7756,Team Red Dragon MTB p/b The CCAP,2024-06-01 0:00:00,2024-06-01 0:00:00,654 Orchard Rd,Berlin,CT,USA,41.5898634,-72.7935,Mountain Bike,NEBRA
+63767,7756,CCAP Youth Cyclocross Camp - USAC Regional Development Camp,2024-08-24 0:00:00,2024-08-25 0:00:00,1000 East St,Southington,CT,USA,41.587331,-72.841785,Cycling Camp,Cyclocross
+63769,7756,The New Haven Grand Prix,2024-09-13 0:00:00,2024-09-13 0:00:00,1000 Chapel St,New Haven,CT,USA,41.30728457,-72.92868258,Road Race,NEBRA
+63770,7756,Newtown Cyclocross p/b The CCAP - PMCX Series #4,2024-10-06 0:00:00,2024-10-06 0:00:00,"4 Wildlife Dr Newtown, CT 06470",Newtown,CT,USA,41.405166,-73.2857648,Cyclocross,NEBRA
+63771,7756,CCAP MTB School Club Ride- Watrous Park,2024-10-23 0:00:00,2024-10-23 0:00:00,Watrous Park,Cromwell,CT,USA,41.5980904,-72.6522731,Recreational,NULL
+63773,7756,CCAP MTB School Club Ride- Bluff Point,2024-10-10 0:00:00,2024-10-10 0:00:00,55 Depot Rd,Groton,CT,USA,41.3418932,-72.0339183,Recreational,NEBRA
+64193,7756,CCAP Spring 2024 School MTB Clubs,2024-03-01 0:00:00,2024-06-30 0:00:00,353 Main St,Middletown,CT,USA,41.5610795,-72.6504669,Club Membership,NEBRA
+66571,7756,The CCAP Tokeneke Road Race,2024-08-11 0:00:00,2024-08-11 0:00:00,93 Hartland Blvd,Hartland,CT,USA,41.9984256,-72.9053212,Road Race,NEBRA
+66887,7756,2024 CCAP Fall Cyclocross Teams,2024-08-01 0:00:00,2024-12-31 0:00:00,353 Main St,Middletown,CT,USA,41.5610795,-72.6504669,Cyclocross,Club Membership
+67173,7756,CCAP Fall 2024 MTB Teams,2024-09-01 0:00:00,2024-12-31 0:00:00,353 Main St,Middletown,CT,USA,41.5610795,-72.6504669,Mountain Bike,Club Membership
+67409,7756,CCAP Fall 2024 School MTB Clubs,2024-09-01 0:00:00,2024-11-30 0:00:00,353 Main St,Middletown,CT,USA,41.5610795,-72.6504669,Mountain Bike,Club Membership
+68089,7756,CCAP Spring 2025 Regional MTB Teams,2025-04-01 0:00:00,2025-06-30 0:00:00,353 Main St,Middletown,CT,USA,41.5610795,-72.6504669,Mountain Bike,Club Membership
+69196,7756,CCAP Spring 2025 School MTB Clubs,2025-04-01 0:00:00,2025-06-30 0:00:00,353 Main St,Middletown,CT,USA,41.5610795,-72.6504669,Mountain Bike,Club Membership
+69198,7756,CCAP Summer 2025 Junior Road Teams,2025-05-01 0:00:00,2025-09-30 0:00:00,353 Main St,Middletown,CT,USA,41.5610795,-72.6504669,Road Race,Club Membership
+69723,7756,The CCAP's Breakaway Benefit Cycling Festival,2025-06-28 0:00:00,2025-06-28 0:00:00,204 Stillman Hill Rd,Colebrook,CT,USA,41.99028965,-73.13901623,Gravel,Mountain Bike
+70151,7756,The Governor's First XCC (Short Track MTB),2025-05-04 0:00:00,2025-05-04 0:00:00,280 Arch Rd,Avon,CT,USA,41.8006526,-72.858563,Mountain Bike,NEBRA
+70350,7756,Team Red Dragon MTB p/b The CCAP,2025-06-07 0:00:00,2025-06-07 0:00:00,654 Orchard Rd,Berlin,CT,USA,41.5898634,-72.7935,Mountain Bike,NEBRA
+70358,7756,The New Haven Grand Prix,2025-09-12 0:00:00,2025-09-12 0:00:00,1000 Chapel St,New Haven,CT,USA,41.30728457,-72.92868258,Road Race,NEBRA
+70412,7756,CCAP Summer Road Camp,2025-07-06 0:00:00,2025-07-11 0:00:00,2131 Hillside Road,Storrs,CT,USA,41.8076854,-72.2570522,Cycling Camp,Road Race
+70415,7756,CCAP Summer Mountain Bike Camp,2025-07-06 0:00:00,2025-07-11 0:00:00,2131 Hillside Road,Storrs,CT,USA,41.8076854,-72.2570522,Cycling Camp,Mountain Bike
+70591,7756,CCAP TNC Series #1 - on a Wednesday!,2025-06-11 0:00:00,2025-06-11 0:00:00,615 Silver Lane,East Hartford,CT,USA,41.7600257,-72.6184474,Road Race,NEBRA
+70596,7756,CCAP TNC Series #2 - Junior Race Night,2025-06-17 0:00:00,2025-06-17 0:00:00,615 Silver Lane,East Hartford,CT,USA,41.7600257,-72.6184474,Road Race,NEBRA
+70597,7756,CCAP TNC Series #3,2025-07-29 0:00:00,2025-07-29 0:00:00,615 Silver Lane,East Hartford,CT,USA,41.7600257,-72.6184474,Road Race,NEBRA
+70598,7756,CCAP TNC Series #4 - Junior Race Night,2025-07-01 0:00:00,2025-07-01 0:00:00,615 Silver Lane,East Hartford,CT,USA,41.7600257,-72.6184474,Road Race,NEBRA
+70619,7756,CCAP's Ledyard XCC (Short Track MTB),2025-05-21 0:00:00,2025-05-21 0:00:00,1860 CT-12,Ledyard,CT,USA,41.4505654,-72.073102,Mountain Bike,NEBRA
+70632,7756,CCAP's Moran XCC (Short Track MTB),2025-05-15 0:00:00,2025-05-15 0:00:00,141 Hope Hill Rd,Wallingford,CT,USA,41.4846689,-72.831059,Mountain Bike,NEBRA
+70855,7756,CCAP Rocky Hill Cyclocross Series #1,2025-08-27 0:00:00,2025-08-27 0:00:00,340 Elm St,Rocky Hill,CT,USA,41.6630015,-72.6513435,Cyclocross,NEBRA
+70856,7756,CCAP Rocky Hill Cyclocross Series #2,2025-09-03 0:00:00,2025-09-03 0:00:00,340 Elm St.,Rocky Hill,CT,USA,41.66160668,-72.65200384,Cyclocross,NEBRA
+70857,7756,CCAP Rocky Hill Cyclocross Series #3,2025-09-17 0:00:00,2025-09-17 0:00:00,340 Elm St.,Rocky Hill,CT,USA,41.66160668,-72.65200384,Cyclocross,NEBRA
+70858,7756,CCAP Rocky Hill Cyclocross Series #4,2025-09-24 0:00:00,2025-09-24 0:00:00,340 Elm St.,Rocky Hill,CT,USA,41.66160668,-72.65200384,Cyclocross,NEBRA
+71051,7756,The CCAP Tokeneke Road Race,2025-08-10 0:00:00,2025-08-10 0:00:00,93 Hartland Blvd,Hartland,CT,USA,41.9984256,-72.9053212,Road Race,NEBRA
+71432,7756,Newtown Cyclocross p/b The CCAP - PMCX #4,2025-10-05 0:00:00,2025-10-05 0:00:00,"4 Wildlife Dr Newtown, CT 06470",Newtown,CT,USA,41.405166,-73.2857648,Cyclocross,NEBRA
+71873,7756,CCAP Youth Cyclocross Camp 2025,2025-08-16 0:00:00,2025-08-17 0:00:00,1000 East St,Southington,CT,USA,41.587331,-72.841785,Cycling Camp,Cyclocross
+71974,7756,CCAP Fall 2025 MTB Teams,2025-09-01 0:00:00,2025-12-31 0:00:00,353 Main St,Middletown,CT,USA,41.5610795,-72.6504669,Mountain Bike,Club Membership
+71987,7756,2025 CCAP Fall Cyclocross Teams,2025-08-25 0:00:00,2025-12-31 0:00:00,353 Main St,Middletown,CT,USA,41.5610795,-72.6504669,Cyclocross,Club Membership
+72027,7756,CCAP Fall 2025 School MTB Clubs,2025-09-01 0:00:00,2025-12-31 0:00:00,353 Main St,Middletown,CT,USA,41.5610795,-72.6504669,Mountain Bike,Club Membership
+73021,7756,CCAP MTB School Club Ride- Bluff Point,2025-10-15 0:00:00,2025-10-15 0:00:00,55 Depot Rd,Groton,CT,USA,41.3418932,-72.0339183,Recreational,Mountain Bike
+73022,7756,CCAP MTB School Club Ride- Watrous Park,2025-10-22 0:00:00,2025-10-22 0:00:00,Watrous Park,Cromwell,CT,USA,41.5980904,-72.6522731,Recreational,Mountain Bike
+73436,7756,CCAP Spring 2026 Regional MTB Teams,2026-03-30 0:00:00,2026-06-30 0:00:00,353 Main St,Middletown,CT,USA,41.5610795,-72.6504669,Mountain Bike,Club Membership
+73439,7756,CCAP Spring 2026 School MTB Clubs,2026-04-01 0:00:00,2026-06-30 0:00:00,353 Main St,Middletown,CT,USA,41.5610795,-72.6504669,Mountain Bike,Club Membership
+73566,7756,The CCAP's Breakaway Benefit Cycling Festival,2026-05-30 0:00:00,2026-05-30 0:00:00,204 Stillman Hill Rd,Colebrook,CT,USA,41.99028965,-73.13901623,Gravel,Mountain Bike
+73620,7756,The Governor's First XCC,2026-04-18 0:00:00,2026-04-18 0:00:00,280 Arch Rd,Avon,CT,USA,41.8006526,-72.858563,Mountain Bike,NEBRA
+74038,7756,Team Red Dragon MTB p/b The CCAP,2026-06-06 0:00:00,2026-06-06 0:00:00,654 Orchard Rd,Berlin,CT,USA,41.5898634,-72.7935,Mountain Bike,NEBRA
+74112,7756,CCAP Summer Road Camp,2026-07-19 0:00:00,2026-07-24 0:00:00,2131 Hillside Road,Storrs,CT,USA,41.8076854,-72.2570522,Cycling Camp,Road Race
+74113,7756,CCAP Summer Mountain Bike Camp,2026-07-19 0:00:00,2026-07-24 0:00:00,2131 Hillside Road,Storrs,CT,USA,41.8076854,-72.2570522,Cycling Camp,Mountain Bike
+74117,7756,The Spy XC,2026-05-16 0:00:00,2026-05-16 0:00:00,73 Clark Gates Rd,East Haddam,CT,USA,41.5200068,-72.4449847,Mountain Bike,NEBRA
+74167,7756,Rose City XC,2026-05-02 0:00:00,2026-05-02 0:00:00,189 Mohegan Park Rd,Norwich,CT,USA,41.5481155,-72.0676484,Mountain Bike,NEBRA
