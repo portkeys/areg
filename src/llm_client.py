@@ -223,6 +223,39 @@ Write a brief, warm message to encourage them to return."""
     return generate_insight(prompt, system_prompt, temperature=0.8, max_tokens=150)
 
 
+def generate_sponsor_pitch(audience_profile: dict, event_name: str, tone: str = "professional") -> str:
+    """Generate a sponsor-ready audience narrative from demographic data."""
+    system_prompt = """You are a sponsorship marketing specialist who writes compelling audience
+profiles for event sponsorship decks. Your audience narratives are used by event directors
+to pitch to potential sponsors (brands in outdoor recreation, fitness, health, cycling, etc.).
+
+Write a polished audience profile narrative that:
+- Opens with a compelling one-sentence hook about the audience
+- Highlights the demographic composition (age, gender, geographic reach)
+- Emphasizes engagement and loyalty metrics (retention rate, repeat attendance)
+- Quantifies the audience with specific numbers from the data provided
+- Identifies the audience's likely lifestyle and spending characteristics based on the demographics
+- Ends with a "Why Sponsor" paragraph connecting audience attributes to sponsor value
+- Uses confident, data-backed language suitable for a sponsorship deck
+- Is 400-600 words in markdown format with headers
+
+Structure with these headers:
+## Audience Overview
+## Demographics
+## Engagement & Loyalty
+## Geographic Reach
+## Why Sponsor [Event Name]"""
+
+    prompt = f"""Generate a sponsor-ready audience profile for "{event_name}" based on this data:
+
+{json.dumps(audience_profile, indent=2, default=str)}
+
+Write a compelling, data-backed narrative that a race director could include in a sponsorship pitch deck.
+Tone: {tone}."""
+
+    return generate_insight(prompt, system_prompt, temperature=0.7, max_tokens=1500)
+
+
 def translate_natural_query(query: str, schema_context: str) -> str:
     """
     Translate natural language query to pandas code.

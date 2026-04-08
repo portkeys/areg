@@ -16,6 +16,16 @@ from typing import Optional
 from datetime import datetime
 
 
+def _haversine_miles(lat1, lon1, lat2, lon2):
+    """Calculate distance in miles between two lat/lon points using haversine formula."""
+    R = 3959  # Earth radius in miles
+    lat1, lon1, lat2, lon2 = map(np.radians, [lat1, lon1, lat2, lon2])
+    dlat = lat2 - lat1
+    dlon = lon2 - lon1
+    a = np.sin(dlat / 2) ** 2 + np.cos(lat1) * np.cos(lat2) * np.sin(dlon / 2) ** 2
+    return 2 * R * np.arcsin(np.sqrt(a))
+
+
 class EventAnalytics:
     """Analytics engine for a specific promoter's events."""
 
@@ -329,17 +339,8 @@ class EventAnalytics:
         if geo.empty:
             return {}
 
-        # Haversine distance calculation (approximate)
-        def haversine_miles(lat1, lon1, lat2, lon2):
-            R = 3959  # Earth radius in miles
-            lat1, lon1, lat2, lon2 = map(np.radians, [lat1, lon1, lat2, lon2])
-            dlat = lat2 - lat1
-            dlon = lon2 - lon1
-            a = np.sin(dlat/2)**2 + np.cos(lat1) * np.cos(lat2) * np.sin(dlon/2)**2
-            return 2 * R * np.arcsin(np.sqrt(a))
-
         distances = geo.apply(
-            lambda row: haversine_miles(row["Latitude"], row["Longitude"], event_lat, event_lon),
+            lambda row: _haversine_miles(row["Latitude"], row["Longitude"], event_lat, event_lon),
             axis=1
         )
 
@@ -414,6 +415,354 @@ class EventAnalytics:
             "F": int(counts.get("F", 0)),
             "other": int(counts.get("", 0) + counts.drop(["M", "F"], errors="ignore").sum()),
         }
+
+    def get_experience_distribution(self, year: Optional[int] = None) -> pd.DataFrame:
+        """
+        Get participant experience level distribution.
+
+        Counts how many events each participant has done with this director
+        (up to and including the given year), scoped to that year's participants.
+
+        Returns DataFrame with columns: experience_level, count
+        """
+        if self.df.empty:
+            return pd.DataFrame()
+
+        if year is not None:
+            # Only participants who appeared in this year
+            year_participants = set(
+                self.df[self.df["event_year"] == year]["participant_id"].unique()
+            )
+            # Count events up to and including this year
+            df_up_to = self.df[self.df["event_year"] <= year]
+            attendance = df_up_to[
+                df_up_to["participant_id"].isin(year_participants)
+            ].groupby("participant_id")["EventID"].nunique()
+        else:
+            attendance = self.df.groupby("participant_id")["EventID"].nunique()
+
+        buckets = pd.cut(
+            attendance,
+            bins=[0, 1, 3, 6, float("inf")],
+            labels=["First-timer (1)", "Developing (2-3)", "Experienced (4-6)", "Veteran (7+)"],
+        )
+        distribution = buckets.value_counts().sort_index()
+
+        return pd.DataFrame({
+            "experience_level": distribution.index.tolist(),
+            "count": distribution.values,
+        })
+
+    def get_retention_segments(self, year: int) -> dict:
+        """
+        Classify participants in a given year as returning, first-time, or lapsed-reactivated.
+
+        Returns dict with counts, percentages, and a tagged participants DataFrame.
+        """
+        if self.df.empty:
+            return {"returning": 0, "first_time": 0, "lapsed_reactivated": 0, "total": 0}
+
+        current = set(self.df[self.df["event_year"] == year]["participant_id"].unique())
+        prior_year = set(self.df[self.df["event_year"] == year - 1]["participant_id"].unique())
+        all_prior = set(self.df[self.df["event_year"] < year]["participant_id"].unique())
+
+        returning = current & prior_year
+        first_time = current - all_prior
+        lapsed_reactivated = (current - prior_year) & all_prior
+
+        total = len(current)
+        safe_pct = lambda n: round(n / total * 100, 1) if total > 0 else 0
+
+        # Build tagged DataFrame
+        records = []
+        for pid in current:
+            if pid in returning:
+                segment = "Returning"
+            elif pid in first_time:
+                segment = "First-time"
+            else:
+                segment = "Lapsed Reactivated"
+            records.append({"participant_id": pid, "segment": segment})
+
+        return {
+            "returning": len(returning),
+            "returning_pct": safe_pct(len(returning)),
+            "first_time": len(first_time),
+            "first_time_pct": safe_pct(len(first_time)),
+            "lapsed_reactivated": len(lapsed_reactivated),
+            "lapsed_reactivated_pct": safe_pct(len(lapsed_reactivated)),
+            "total": total,
+            "participants": pd.DataFrame(records) if records else pd.DataFrame(),
+        }
+
+    def get_retention_trend(self) -> pd.DataFrame:
+        """Get retention segments for every year (skipping the first)."""
+        if self.df.empty:
+            return pd.DataFrame()
+
+        years = sorted(self.df["event_year"].dropna().unique().astype(int))
+        if len(years) < 2:
+            return pd.DataFrame()
+
+        rows = []
+        for year in years[1:]:
+            seg = self.get_retention_segments(year)
+            rows.append({
+                "year": year,
+                "returning": seg["returning"],
+                "first_time": seg["first_time"],
+                "lapsed_reactivated": seg["lapsed_reactivated"],
+                "total": seg["total"],
+                "returning_pct": seg["returning_pct"],
+                "first_time_pct": seg["first_time_pct"],
+                "lapsed_reactivated_pct": seg["lapsed_reactivated_pct"],
+            })
+
+        return pd.DataFrame(rows)
+
+    def get_demographic_trend(self) -> dict:
+        """
+        Track how age distribution and gender split change year over year.
+
+        Returns dict with age_by_year, gender_by_year, and median_age_by_year DataFrames.
+        """
+        if self.df.empty:
+            return {"age_by_year": pd.DataFrame(), "gender_by_year": pd.DataFrame(),
+                    "median_age_by_year": pd.DataFrame()}
+
+        years = sorted(self.df["event_year"].dropna().unique().astype(int))
+
+        age_rows = []
+        gender_rows = []
+        median_rows = []
+
+        for year in years:
+            year_df = self.df[self.df["event_year"] == year]
+
+            # Age distribution
+            age_dist = self.get_age_distribution(year)
+            total = age_dist["count"].sum() if not age_dist.empty else 0
+            for _, row in age_dist.iterrows():
+                age_rows.append({
+                    "year": year,
+                    "age_group": row["age_group"],
+                    "count": row["count"],
+                    "pct": round(row["count"] / total * 100, 1) if total > 0 else 0,
+                })
+
+            # Median age
+            ages = year_df.groupby("participant_id")["participant_age"].first().dropna()
+            if len(ages) > 0:
+                median_rows.append({"year": year, "median_age": float(ages.median())})
+
+            # Gender distribution
+            gender = self.get_gender_distribution(year)
+            g_total = sum(gender.values()) if gender else 0
+            for g, count in gender.items():
+                gender_rows.append({
+                    "year": year,
+                    "gender": g,
+                    "count": count,
+                    "pct": round(count / g_total * 100, 1) if g_total > 0 else 0,
+                })
+
+        return {
+            "age_by_year": pd.DataFrame(age_rows),
+            "gender_by_year": pd.DataFrame(gender_rows),
+            "median_age_by_year": pd.DataFrame(median_rows),
+        }
+
+    def get_filtered_segment(
+        self,
+        age_range: Optional[tuple[int, int]] = None,
+        genders: Optional[list[str]] = None,
+        event_types: Optional[list[str]] = None,
+        max_distance_miles: Optional[float] = None,
+        event_lat: Optional[float] = None,
+        event_lon: Optional[float] = None,
+        min_attendance: Optional[int] = None,
+        max_attendance: Optional[int] = None,
+        years: Optional[list[int]] = None,
+        categories: Optional[list[str]] = None,
+    ) -> dict:
+        """
+        Flexible segment builder: filter participants by multiple criteria.
+
+        Returns dict with participants DataFrame, count, demographics summary,
+        and pct_of_total.
+        """
+        if self.df.empty:
+            return {"participants": pd.DataFrame(), "count": 0, "demographics": {}, "pct_of_total": 0}
+
+        df = self.df
+        if years:
+            df = df[df["event_year"].isin(years)]
+
+        total_unique = df["participant_id"].nunique()
+
+        # Build per-participant profile (sort by year so "last" = most recent)
+        df = df.sort_values("event_year")
+        participants = df.groupby("participant_id").agg({
+            "FName": "first",
+            "LName": "first",
+            "participant_age": "last",
+            "gender": "first",
+            "Latitude": "first",
+            "Longitude": "first",
+            "EventID": "nunique",
+            "EventType": lambda x: list(x.dropna().unique()),
+            "Catagory": lambda x: list(x.dropna().unique()),
+        }).reset_index()
+        participants.columns = [
+            "participant_id", "first_name", "last_name", "age", "gender",
+            "latitude", "longitude", "events_attended", "event_types", "categories",
+        ]
+
+        # Apply filters
+        mask = pd.Series(True, index=participants.index)
+
+        if age_range is not None:
+            mask &= (participants["age"] >= age_range[0]) & (participants["age"] <= age_range[1])
+
+        if genders:
+            mask &= participants["gender"].isin(genders)
+
+        if event_types:
+            mask &= participants["event_types"].apply(
+                lambda types: bool(set(types) & set(event_types))
+            )
+
+        if categories:
+            mask &= participants["categories"].apply(
+                lambda cats: bool(set(cats) & set(categories))
+            )
+
+        if min_attendance is not None:
+            mask &= participants["events_attended"] >= min_attendance
+
+        if max_attendance is not None:
+            mask &= participants["events_attended"] <= max_attendance
+
+        if max_distance_miles is not None and event_lat is not None and event_lon is not None:
+            valid_coords = (
+                participants["latitude"].notna() &
+                participants["longitude"].notna() &
+                (participants["latitude"] != 0) &
+                (participants["longitude"] != 0)
+            )
+            distances = participants.apply(
+                lambda row: _haversine_miles(row["latitude"], row["longitude"], event_lat, event_lon)
+                if valid_coords[row.name] else float("inf"),
+                axis=1,
+            )
+            mask &= distances <= max_distance_miles
+
+        filtered = participants[mask].copy()
+        count = len(filtered)
+
+        # Demographics summary
+        demographics = {}
+        if count > 0:
+            valid_ages = filtered["age"].dropna()
+            demographics["median_age"] = float(valid_ages.median()) if len(valid_ages) > 0 else None
+            demographics["gender_split"] = filtered["gender"].value_counts().to_dict()
+            demographics["avg_attendance"] = round(filtered["events_attended"].mean(), 1)
+
+            valid_geo = filtered[
+                filtered["latitude"].notna() & filtered["longitude"].notna() &
+                (filtered["latitude"] != 0) & (filtered["longitude"] != 0)
+            ]
+            if len(valid_geo) > 0 and event_lat is not None and event_lon is not None:
+                dists = valid_geo.apply(
+                    lambda row: _haversine_miles(row["latitude"], row["longitude"], event_lat, event_lon),
+                    axis=1,
+                )
+                demographics["avg_distance"] = round(dists.mean(), 1)
+
+        # Drop list columns for display
+        display_df = filtered.drop(columns=["event_types", "categories"])
+
+        return {
+            "participants": display_df.sort_values("events_attended", ascending=False),
+            "count": count,
+            "demographics": demographics,
+            "pct_of_total": round(count / total_unique * 100, 1) if total_unique > 0 else 0,
+        }
+
+    def get_audience_profile(
+        self,
+        event_lat: Optional[float] = None,
+        event_lon: Optional[float] = None,
+        year: Optional[int] = None,
+    ) -> dict:
+        """
+        Comprehensive audience profile for sponsor pitch generation.
+
+        Aggregates demographics, loyalty, retention, and geography into
+        a single data package.
+        """
+        if self.df.empty:
+            return {}
+
+        years = sorted(self.df["event_year"].dropna().unique().astype(int))
+        target_year = year or max(years)
+
+        profile = {
+            "total_unique_participants": int(self.df["participant_id"].nunique()),
+            "total_entries": len(self.df),
+            "years_of_data": len(years),
+            "year_range": f"{min(years)}-{max(years)}",
+        }
+
+        # Age
+        age_dist = self.get_age_distribution(target_year)
+        profile["age_distribution"] = age_dist.to_dict("records") if not age_dist.empty else []
+        ages = self.df[self.df["event_year"] == target_year].groupby("participant_id")["participant_age"].first().dropna()
+        profile["median_age"] = float(ages.median()) if len(ages) > 0 else None
+
+        # Gender
+        profile["gender_split"] = self.get_gender_distribution(target_year)
+
+        # Loyalty
+        profile["loyalty_cohorts"] = self.get_loyalty_cohorts()
+
+        # Experience
+        exp = self.get_experience_distribution(target_year)
+        profile["experience_distribution"] = exp.to_dict("records") if not exp.empty else []
+
+        # Retention
+        if target_year > min(years):
+            profile["retention_rate"] = self.get_retention_rate(target_year)
+        else:
+            profile["retention_rate"] = None
+
+        # YoY growth
+        if len(years) >= 2:
+            y1, y2 = years[-2], years[-1]
+            p1 = self.df[self.df["event_year"] == y1]["participant_id"].nunique()
+            p2 = self.df[self.df["event_year"] == y2]["participant_id"].nunique()
+            profile["yoy_growth_pct"] = round((p2 - p1) / p1 * 100, 1) if p1 > 0 else 0
+        else:
+            profile["yoy_growth_pct"] = None
+
+        # Geography
+        if event_lat is not None and event_lon is not None:
+            profile["geographic"] = self.get_distance_distribution(event_lat, event_lon)
+
+        # Top categories
+        cat_counts = self.df[self.df["event_year"] == target_year].groupby("Catagory")["participant_id"].nunique()
+        profile["top_categories"] = cat_counts.sort_values(ascending=False).head(10).to_dict()
+
+        # Event types
+        profile["event_types"] = self.df["EventType"].dropna().unique().tolist()
+
+        # Avg entry fee
+        profile["avg_entry_fee"] = round(self.df["EntryFee"].mean(), 2)
+
+        # Event location (for context in the pitch)
+        profile["event_states"] = self.df["EventState"].dropna().unique().tolist()
+
+        return profile
 
 
 class EcosystemBenchmark:

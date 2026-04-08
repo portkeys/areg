@@ -153,6 +153,39 @@ def get_data_summary() -> dict:
     }
 
 
+def get_promoter_event_center(promoter_id: int) -> tuple[float, float, str, str]:
+    """
+    Get the representative location for a promoter's events.
+
+    Uses median lat/lon (robust to geocoding outliers). Returns the city/state
+    of the event closest to the median point.
+    """
+    import numpy as np
+
+    events = get_promoter_events(promoter_id)
+    geo = events[
+        events["EventLat"].notna() & events["EventLon"].notna() &
+        (events["EventLat"] != 0) & (events["EventLon"] != 0)
+    ]
+
+    if geo.empty:
+        return (0.0, 0.0, "Unknown", "Unknown")
+
+    med_lat = geo["EventLat"].median()
+    med_lon = geo["EventLon"].median()
+
+    # Find event closest to median for city/state label
+    dists = ((geo["EventLat"] - med_lat) ** 2 + (geo["EventLon"] - med_lon) ** 2)
+    closest = geo.loc[dists.idxmin()]
+
+    return (
+        float(med_lat),
+        float(med_lon),
+        str(closest.get("EventCity", "Unknown")),
+        str(closest.get("EventState", "Unknown")),
+    )
+
+
 if __name__ == "__main__":
     # Quick test
     summary = get_data_summary()
